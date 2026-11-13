@@ -1,0 +1,31 @@
+# Compiled C binaries
+*.exe
+*.o
+*.out
+*.obj
+program
+hello_kioto
+variables
+personalised_calculation
+
+# Code::Blocks project files (keep source only)
+*.cbp
+*.depend
+*.layout
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Editor
+.vscode/
+.idea/
+
+# Report build artifacts
+*.pdf

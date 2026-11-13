@@ -1,0 +1,126 @@
+name: C Lab Validation
+
+on:
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout submitted code
+        uses: actions/checkout@v4
+
+      - name: Install GCC
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y build-essential python3
+
+      - name: Check required files exist
+        run: |
+          set -e
+          for f in \
+            src/exercise01_hello_kioto.c \
+            src/exercise02_variables.c \
+            src/exercise03_personalised_calculation.c \
+            report/REPORT.md \
+            ; do
+            if [ ! -f "$f" ]; then
+              echo "::error::Missing required file: $f"
+              exit 1
+            fi
+          done
+          echo "All required files present."
+
+      - name: Compile Exercise 1
+        run: gcc -std=c11 -Wall -Wextra -pedantic src/exercise01_hello_kioto.c -o /tmp/ex01
+
+      - name: Run Exercise 1 and check output
+        run: |
+          set -e
+          out=$(/tmp/ex01)
+          echo "$out"
+          echo "$out" | grep -F "Hello, Kioto!" >/dev/null
+          lines=$(echo "$out" | grep -c .)
+          if [ "$lines" -lt 2 ]; then
+            echo "::error::Exercise 1 must print at least two lines."
+            exit 1
+          fi
+
+      - name: Compile Exercise 2
+        run: gcc -std=c11 -Wall -Wextra -pedantic src/exercise02_variables.c -o /tmp/ex02
+
+      - name: Run Exercise 2
+        run: |
+          set -e
+          out=$(/tmp/ex02)
+          echo "$out"
+          if [ -z "$out" ]; then
+            echo "::error::Exercise 2 produced no output."
+            exit 1
+          fi
+
+      - name: Check Exercise 3 metadata and TODOs
+        run: |
+          set -e
+          if grep -q "TODO" src/exercise03_personalised_calculation.c; then
+            echo "::error::Remove all TODO markers from exercise03."
+            exit 1
+          fi
+          VID=$(grep -oE "Variant ID:[[:space:]]*V[0-9]+" src/exercise03_personalised_calculation.c | grep -oE "V[0-9]+" | head -1)
+          if [ -z "$VID" ]; then
+            echo "::error::Variant ID not found in exercise03 source header."
+            exit 1
+          fi
+          echo "Detected variant: $VID"
+
+      - name: Compile Exercise 3
+        run: gcc -std=c11 -Wall -Wextra -pedantic src/exercise03_personalised_calculation.c -o /tmp/ex03
+
+      - name: Run Exercise 3
+        run: |
+          set -e
+          out=$(/tmp/ex03)
+          echo "$out"
+          if [ -z "$out" ]; then
+            echo "::error::Exercise 3 produced no output."
+            exit 1
+          fi
+
+      - name: Check report completion
+        run: |
+          set -e
+          if [ ! -f report/REPORT.md ]; then
+            echo "::error::report/REPORT.md missing."
+            exit 1
+          fi
+          if cmp -s report/REPORT.md report/REPORT_TEMPLATE.md; then
+            echo "::error::report/REPORT.md must not be an unmodified copy of the template."
+            exit 1
+          fi
+          if [ "$(wc -c < report/REPORT.md)" -lt 500 ]; then
+            echo "::error::report/REPORT.md is too short; complete all sections."
+            exit 1
+          fi
+          echo "Report present."
+
+      - name: Run Python test suite
+        run: python3 -m unittest discover -s tests -v
+
+      - name: Publish validation summary
+        if: always()
+        run: |
+          echo "## C Lab Validation Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "- Required files: checked" >> $GITHUB_STEP_SUMMARY
+          echo "- Exercise 1: compiled and output verified" >> $GITHUB_STEP_SUMMARY
+          echo "- Exercise 2: compiled and executed" >> $GITHUB_STEP_SUMMARY
+          echo "- Exercise 3: metadata checked, compiled and executed" >> $GITHUB_STEP_SUMMARY
+          echo "- Report: checked" >> $GITHUB_STEP_SUMMARY
+          echo "- Python tests: executed" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Final grading (including personalised expected values) is performed by the" >> $GITHUB_STEP_SUMMARY
+          echo "lecturer using the trusted Kioto grading engine." >> $GITHUB_STEP_SUMMARY
