@@ -1,4 +1,5 @@
 # ICS 2175 – Laboratory 01 Report
+
 ## Getting Started with C Programming
 
 ## 1. Cover Information
@@ -219,66 +220,106 @@ The steps I followed were:
 4. I cloned my fork to my laptop.
 5. I created an individual feature branch for my work.
 6. I opened the project in Visual Studio Code.
-7. I edited the three C source files in the `src/` folder.
-8. I made meaningful commits after completing the exercises.
+7. I edited the three C source files in the `src/` folder and completed the report.
+8. I made commits to record the changes.
 9. I pushed my changes to my GitHub repository.
+10. I created a pull request to submit my work to the original laboratory repository for review.
 
-My GitHub username is `margiee-2o6`.
+**GitHub username:** `margiee-2o6`
 
-**Repository link:**
+**Forked repository:**
 
 https://github.com/margiee-2o6/kioto-ics2175-c-lab01
 
-The GitHub workflow helped me understand how programmers save changes, track their work and share code using an online repository.
+**Feature branch:**
 
-**Evidence:** Screenshots of my GitHub fork, feature branch, commits and pull request.
+`student/ENB211-0032/2025/lab01`
+
+**Commit history:**
+
+The following four commits were made for this laboratory:
+
+1. `Complete Hello Kioto exercise` — `53f8b85`
+2. `Implement variables and data types` — `61a6c87`
+3. `Complete personalised calculation` — `652a671`
+4. `Complete laboratory report and screenshot references` — `748b220`
+
+**Pull Request Details**
+
+- **Pull Request Title:** `ICS2175 LAB01 - ENB211-0032/2025 - Margret Akinyi Oyim`
+- **Pull Request Number:** #9
+- **Status:** Open (submitted for review; not merged)
+- **Pull Request Link:** https://github.com/Kiotolabs/kioto-ics2175-c-lab01/pull/9
+
+The GitHub workflow helped me understand how programmers save changes, track their work and share code using an online repository. Creating the pull request also allowed me to submit my work for review.
+
+**Evidence:** Screenshots of my GitHub fork, feature branch, commit history and pull request.
 
 ## 11. Screenshots
 
 The following screenshots provide evidence of the activities completed during the laboratory.
 
-### 1. 01-codeblocks-aboutlog.png
-![01-codeblocks-aboutlog.png](screenshots/01-codeblocks-aboutlog.png)
+### 1. Code::Blocks About
 
-### 2. 02-codeblocks-project.png
-![02-codeblocks-project.png](screenshots/02-codeblocks-project.png)
+![Code::Blocks About](screenshots/01-codeblocks-aboutlog.png)
 
-### 3. 03-successful-build.png
-![03-successful-build.png](screenshots/03-successful-build.png)
+### 2. Code::Blocks Project
 
-### 4. exercise01-output.png
-![exercise01-output.png](screenshots/exercise01-output.png)
+![Code::Blocks Project](screenshots/02-codeblocks-project.png)
 
-### 5. 05-exercise02-output.png
-![05-exercise02-output.png](screenshots/05-exercise02-output.png)
+### 3. Successful Build
 
-### 6. exercise03-output.png
-![exercise03-output.png](screenshots/exercise03-output.png)
+![Successful Build](screenshots/03-successful-build.png)
 
-### 7. 07-github-fork.png
-![07-github-fork.png](screenshots/07-github-fork.png)
+### 4. Exercise 1 Output
 
-### 8. -feature-branch.png
-![-feature-branch.png](screenshots/-feature-branch.png)
+![Exercise 1 Output](screenshots/exercise01-output.png)
+
+### 5. Exercise 2 Output
+
+![Exercise 2 Output](screenshots/05-exercise02-output.png)
+
+### 6. Exercise 3 Output
+
+![Exercise 3 Output](screenshots/exercise03-output.png)
+
+### 7. GitHub Fork
+
+![GitHub Fork](screenshots/07-github-fork.png)
+
+### 8. Feature Branch
+
+![Feature Branch](screenshots/-feature-branch.png)
 
 ### Additional Source Code Screenshots
 
-**exercise01_hello.png**
+**Exercise 1 Source Code**
 
-![exercise01_hello.png](screenshots/exercise01_hello.png)
+![Exercise 1 Source Code](screenshots/exercise01_hello.png)
 
-**exercise02_variables.png**
+**Exercise 2 Source Code**
 
-![exercise02_variables.png](screenshots/exercise02_variables.png)
+![Exercise 2 Source Code](screenshots/exercise02_variables.png)
 
-**exercise03_personalised_calculations.png**
+**Exercise 3 Source Code**
 
-![exercise03_personalised_calculations.png](screenshots/exercise03_personalised_calculations.png)
+![Exercise 3 Source Code](screenshots/exercise03_personalised_calculations.png)
 
-### Remaining Evidence
+### 9. First Commit
 
-- Three commits screenshot: To be added.
-- Pull request screenshot: To be added.
+![First Commit](screenshots/evidence-commit01.png)
+
+### 10. Second Commit
+
+![Second Commit](screenshots/evidence-commit02.png)
+
+### 11. Third Commit
+
+![Third Commit](screenshots/evidence-commit03.png)
+
+### 12. Pull Request
+
+![Pull Request](screenshots/pull-request.png)
 
 The screenshots demonstrate the installation, programming, testing and GitHub activities carried out during the laboratory.
 
