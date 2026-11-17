@@ -2,10 +2,10 @@
  * ICS 2175 - Introduction to Computer Programming
  * Laboratory 01 - Exercise 03: Personalised Calculation
  *
- * Student Name: TODO
- * Registration Number: TODO
- * Variant ID: TODO   (assigned by your lecturer, e.g. V07)
- * Scenario: TODO     (assigned by your lecturer)
+ * Student Name: Victor njogu
+ * Registration Number: ENB211-0018/2025
+ * Variant ID: TODO   (ENB211-0018/2025)
+ * Scenario: TODO     (Campus stationery desk order total calculation)
  *
  * Instructions:
  *   - Record your assigned variant details above.
@@ -19,10 +19,21 @@
 
 int main(void)
 {
-    /* TODO: Declare input variables with your assigned values */
-    /* TODO: Declare a result variable */
-    /* TODO: Perform the required arithmetic operation */
-    /* TODO: Print the result using the required output label */
+    /* Declare input variables with your assigned values */
+    int numberOfNotebooks = 4;
+    double pricePerNotebook = 125.5;
+
+    /* Declare a result variable */
+    double orderTotal;
+
+    /* Perform the required arithmetic operation */
+    orderTotal = numberOfNotebooks * pricePerNotebook;
+
+    /* Print the result using the required output label */
+    printf("Number of notebooks: %d\n", numberOfNotebooks);
+    printf("Price per notebook: %.2f\n", pricePerNotebook);
+    printf("Operation: %d x %.2f\n", numberOfNotebooks, pricePerNotebook);
+    printf("Order total: %.2f\n", orderTotal);
 
     return 0;
 }
