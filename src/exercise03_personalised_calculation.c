@@ -4,7 +4,7 @@
  *
  * Student Name: PATRICKNTHANGA MUTISO
  * Registration Number: ENB211-0026/2025
- * Variant ID:   (ENB211-0026/2026)
+ * Variant ID:   (ENB211-0026/2025)
  * Scenario:     (A small farm records the area of a rectangle demonstration plot)
  *
  * Instructions:
