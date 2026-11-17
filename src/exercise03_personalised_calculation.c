@@ -4,7 +4,7 @@
  *
  * Student Name: KENNEDY MUSYOKA KYALO
  * Registration Number: ENB211-0029/2025
- * Variant ID:    Not provided
+ * Variant ID:      ENB211-0029/2025
  * Scenario: A computer lab records the total number of available work stations accross two rooms.
  *
  * Instructions:
@@ -23,7 +23,7 @@
  *
  * Student Name: KENNEDY MUSYOKA KYALO
  * Registration Number: ENB211-0029/2025
- * Variant ID: NOT PROVIDED
+ * Variant ID:      ENB211-0029/2025
  * Scenario: Room A and Room B workstation calculation
  */
 
