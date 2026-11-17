@@ -19,10 +19,13 @@
 
 int main(void)
 {
-    /* TODO: Declare input variables with your assigned values */
-    /* TODO: Declare a result variable */
-    /* TODO: Perform the required arithmetic operation */
-    /* TODO: Print the result using the required output label */
+    int numberOfNotebooks = 8;
+    float pricePerNotebook = 125.5;
+    char itemCategory = 'S';
+
+    float OrderTotal = numberOfNotebooks * pricePerNotebook;
+
+    printf("Order summary: %d notebooks in category %c  with Ksh%.2f as price per book and total cost is Ksh%.2f.\n", numberOfNotebooks, itemCategory, pricePerNotebook, OrderTotal);
 
     return 0;
 }
