@@ -172,6 +172,8 @@ I completed the following steps:
 6. Pushed my changes to my GitHub fork.
 7. Created Pull Request #3 to submit my work to the original repository.
 
+A commit records changes in the repository's history. A pull request allows the changes to be reviewed before they are merged into the original repository.
+
 **Repository:** https://github.com/kyalokennedy142-del/kioto-ics2175-c-lab01
 
 **Pull Request:** https://github.com/Kiotolabs/kioto-ics2175-c-lab01/pull/3
@@ -192,6 +194,9 @@ The following screenshots provide evidence of my laboratory work. They are store
 8. Feature branch on GitHub – `evidence_08_feature_branch.png`
 9. GitHub commits – `evidence_09_three_commits.png`
 10. Open Pull Request #3 – `evidence_10_pull_request.png`
+11. Exercise 1 source code open in Code::Blocks – `evidence_11_exercise01_source.png`
+12. Exercise 2 source code open in Code::Blocks – `evidence_12_exercise02_source.png`
+13. Exercise 3 source code open in Code::Blocks – `evidence_13_exercise03_source.png`
 
 **Pull Request evidence:**
 
