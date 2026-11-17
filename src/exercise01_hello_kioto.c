@@ -17,9 +17,8 @@
 
 int main(void)
 {
-    /* TODO: Print "Hello, Kioto!" */
-    /* TODO: Print a second line introducing your programme or course */
-    /* TODO: Return 0 */
-
+    printf("Hello, Kioto!, Welcome to C programing\n");
+    printf("Programme: BSc. Agricultural and Biosystems Engineering\n");
+    printf("Code written by Hagreaves Odhiambo");
     return 0;
 }
