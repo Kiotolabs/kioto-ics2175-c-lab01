@@ -2,10 +2,10 @@
  * ICS 2175 - Introduction to Computer Programming
  * Laboratory 01 - Exercise 03: Personalised Calculation
  *
- * Student Name: TODO
- * Registration Number: TODO
- * Variant ID: TODO   (assigned by your lecturer, e.g. V07)
- * Scenario: TODO     (assigned by your lecturer)
+ * Student Name: KENNEDY MUSYOKA KYALO
+ * Registration Number: ENB211-0029/2025
+ * Variant ID:    Not provided
+ * Scenario: A computer lab records the total number of available work stations accross two rooms.
  *
  * Instructions:
  *   - Record your assigned variant details above.
@@ -17,12 +17,27 @@
 
 #include <stdio.h>
 
+/*
+ * ICS 2175 - Introduction to Computer Programming
+ * Laboratory 01 - Exercise 03: Personalised Calculation
+ *
+ * Student Name: KENNEDY MUSYOKA KYALO
+ * Registration Number: ENB211-0029/2025
+ * Variant ID: NOT PROVIDED
+ * Scenario: Room A and Room B workstation calculation
+ */
+
+#include <stdio.h>
+
 int main(void)
 {
-    /* TODO: Declare input variables with your assigned values */
-    /* TODO: Declare a result variable */
-    /* TODO: Perform the required arithmetic operation */
-    /* TODO: Print the result using the required output label */
+    int roomA = 28;
+    int roomB = 22;
+    int totalWorkstations;
+
+    totalWorkstations = roomA + roomB;
+
+    printf("Total workstations: %d\n", totalWorkstations);
 
     return 0;
 }
