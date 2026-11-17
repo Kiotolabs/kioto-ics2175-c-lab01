@@ -48,34 +48,38 @@ For Exercise 1, I created a C program that displays a greeting and introduces my
 
 The program uses `printf()` to display two lines of text.
 
-Code:
+**Code:**
 
-    #include <stdio.h>
+```c
+#include <stdio.h>
 
-    int main(void)
-    {
-        printf("Hello, Kioto!\n");
-        printf("I am a student of BSc. Computer Technology at JKUAT.\n");
+int main(void)
+{
+    printf("Hello, Kioto!\n");
+    printf("I am a student of BSc. Computer Technology at JKUAT.\n");
 
-        return 0;
-    }
+    return 0;
+}
+```
 
 **Program output:**
 
-    Hello, Kioto!
-    I am a student of BSc. Computer Technology at JKUAT.
+```text
+Hello, Kioto!
+I am a student of BSc. Computer Technology at JKUAT.
+```
 
 The program executed successfully.
 
 ## 6. Explanation of C Program Structure
 
-- **#include <stdio.h>:** Includes the standard input/output library, which provides functions such as `printf()`.
-- **int main(void):** Defines the main function, where program execution begins.
+- **`#include <stdio.h>`:** Includes the standard input/output library, which provides functions such as `printf()`.
+- **`int main(void)`:** Defines the main function, where program execution begins.
 - **Braces `{ }`:** Mark the beginning and end of a function or code block.
 - **Statements:** Instructions executed by the program. Most C statements end with a semicolon.
-- **printf():** Displays text and values on the screen.
-- **return 0;:** Indicates that the program completed successfully.
-- **\n:** Moves the output cursor to a new line.
+- **`printf()`:** Displays text and values on the screen.
+- **`return 0;`:** Indicates that the program completed successfully.
+- **`\n`:** Moves the output cursor to a new line.
 
 ## 7. Variables and Data Types
 
@@ -95,10 +99,12 @@ I used the following format specifiers:
 
 **Program output:**
 
-    Age: 25 years
-    Average: 76.5
-    Distance: 98.765432
-    Initial: K
+```text
+Age: 25 years
+Average: 76.5
+Distance: 98.765432
+Initial: K
+```
 
 ## 8. Personalised Calculation
 
@@ -113,15 +119,19 @@ I declared two integer variables and a third variable to store the result.
 
 The arithmetic operation was addition.
 
-Calculation:
+**Calculation:**
 
-    totalWorkstations = roomA + roomB
-    totalWorkstations = 28 + 22
-    totalWorkstations = 50
+```text
+totalWorkstations = roomA + roomB
+totalWorkstations = 28 + 22
+totalWorkstations = 50
+```
 
 **Program output:**
 
-    Total workstations: 50
+```text
+Total workstations: 50
+```
 
 The program produced the expected result.
 
@@ -156,31 +166,36 @@ I completed the following steps:
 3. Created a feature branch named `student/ENB211-0029/2025/lab01`.
 4. Completed the three programming exercises.
 5. Created three meaningful commits:
-
    - Complete Exercise 1: Hello Kioto
    - Complete Exercise 2: Variables and Data Types
    - Complete Exercise 3: Personalised Calculation
-
-6. Pushed the commits to my GitHub fork.
+6. Pushed my changes to my GitHub fork.
+7. Created Pull Request #3 to submit my work to the original repository.
 
 **Repository:** https://github.com/kyalokennedy142-del/kioto-ics2175-c-lab01
 
-**Pull Request:** Pending creation.
+**Pull Request:** https://github.com/Kiotolabs/kioto-ics2175-c-lab01/pull/3
 
-## 11. Screenshots
+**Pull Request status:** Open – awaiting review.
 
-Insert the following screenshots with captions:
+## 11. Screenshots and Evidence
 
-1. Code::Blocks 25.03 About dialog.
-2. Code::Blocks project showing the source file.
-3. Successful build log showing zero errors and zero warnings.
-4. Exercise 1 running in the console.
-5. Exercise 2 running in the console.
-6. Exercise 3 running in the console.
-7. GitHub fork repository.
-8. Feature branch on GitHub.
-9. Three meaningful GitHub commits.
-10. Pull request on GitHub.
+The following screenshots provide evidence of my laboratory work. They are stored in the `report/evidence/` folder.
+
+1. Code::Blocks 25.03 About dialog – `evidence_01_codeblocks_about.png`
+2. Code::Blocks project showing the source file – `evidence_02_project_open.png`
+3. Successful build log showing zero errors and zero warnings – `evidence_03_successful_build.png`
+4. Exercise 1 running in the console – `evidence_04_exercise01_output.png`
+5. Exercise 2 running in the console – `evidence_05_exercise02_output.png`
+6. Exercise 3 running in the console – `evidence_06_exercise03_output.png`
+7. GitHub fork repository – `evidence_07_github_fork.png`
+8. Feature branch on GitHub – `evidence_08_feature_branch.png`
+9. GitHub commits – `evidence_09_three_commits.png`
+10. Open Pull Request #3 – `evidence_10_pull_request.png`
+
+**Pull Request evidence:**
+
+![Open Pull Request #3](evidence/evidence_10_pull_request.png)
 
 ## 12. Individual Reflection
 
