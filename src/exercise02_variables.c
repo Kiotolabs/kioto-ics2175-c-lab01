@@ -15,12 +15,9 @@
 
 int main(void)
 {
-    /* TODO: Declare and initialise an int variable */
-    /* TODO: Declare and initialise a float variable */
-    /* TODO: Declare and initialise a double variable */
-    /* TODO: Declare and initialise a char variable */
-
-    /* TODO: Print each value with a label and the correct format specifier */
+    int numberOfNotebooks = 8;
+    float pricePerNotebook = 125.5;
+    char itemCategory = 'S';
 
     return 0;
 }
