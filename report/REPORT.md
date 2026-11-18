@@ -165,29 +165,29 @@ TODO: Describe your fork, branch, commits and pull request (include screenshots/
 ## 11. Screenshots
 
 
-![Git pull](screenshot_git_pull.png)
+![Git pull](screenshots/scscreenshot_git_pull.png)
 
-![Git fork](screenshot_git_fork.png)
+![Git fork](screenshots/screenshot_git_fork.png)
 
-![Git commit](screenshot_git_commit.png)
+![Git commit](screenshots/screenshot_git_commit.png)
 
-![Exercise 3 console](screenshot_exercise03_console.png)
+![Exercise 3 console](screenshots/screenshot_exercise03_console.png)
 
-![Exercise 3 code](screenshot_exercise03_code.png)
+![Exercise 3 code](screenshots/screenshot_exercise03_code.png)
 
-![Exercise 2 code](screenshot_exercise02_code.png)
+![Exercise 2 code](screenshots/screenshot_exercise02_code.png)
 
-![Exercise 1 error](screenshot_exercise01_error.png)
+![Exercise 1 error](screenshots/screenshot_exercise01_error.png)
 
-![Exercise 1 console](screenshot_exercise01_console.png)
+![Exercise 1 console](screenshots/screenshot_exercise01_console.png)
 
-![Exercise 1 code](screenshot_exercise01_code.png)
+![Exercise 1 code](screenshots/screenshot_exercise01_code.png)
 
-![Exercise 2 console](screenshot_excercise_02_console.png)
+![Exercise 2 console](screenshots/screenshot_excercise_02_console.png)
 
-![About dialogue box](screenshot_codeblocks_about_dialogue.png)
+![About dialogue box](screenshots/screenshot_codeblocks_about_dialogue.png)
 
-![Codeblocks Part One](screenshot_codeblocks.png)
+![Codeblocks Part One](screenshots/screenshot_codeblocks.png)
 
 
 
