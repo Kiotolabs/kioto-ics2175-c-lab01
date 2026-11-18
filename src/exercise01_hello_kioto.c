@@ -17,9 +17,9 @@
 
 int main(void)
 {
-    /* TODO: Print "Hello, Kioto!" */
-    /* TODO: Print a second line introducing your programme or course */
-    /* TODO: Return 0 */
+    printf("Hi, Eric!\n");
+    printf("I am learning the C programming language.\n");
+    printf("ICS2175 Introduction to Computer Programming\n");
 
     return 0;
 }
