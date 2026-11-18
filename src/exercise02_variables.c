@@ -2,8 +2,8 @@
  * ICS 2175 - Introduction to Computer Programming
  * Laboratory 01 - Exercise 02: Variables and Data Types
  *
- * Student Name: TODO
- * Registration Number: TODO
+ * Student Name: MARIANA AKOTH JUMA
+ * Registration Number:  ENB211-0044/2025
  *
  * Instructions:
  *   - Declare and initialise one int, one float, one double and one char.
@@ -15,12 +15,20 @@
 
 int main(void)
 {
-    /* TODO: Declare and initialise an int variable */
-    /* TODO: Declare and initialise a float variable */
-    /* TODO: Declare and initialise a double variable */
-    /* TODO: Declare and initialise a char variable */
 
-    /* TODO: Print each value with a label and the correct format specifier */
+    int numberOfBooks=12;
+  float pricePerBook=350.50;
+  char category='A'
+
+  float totalCost=numberOfBooks*pricePerBook;
+
+    printf("Number of books :5d/nm " ,numberOfBooks);
+    printf("Price per book;%,2f/n ",pricePerBook);
+    printf("Category;%c/n" ,category);
+    printf("Total cost; %.2f/n", totalCost);
+
+
+
 
     return 0;
 }
