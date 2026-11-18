@@ -7,7 +7,7 @@
 - **Programme:** Agricultural and Biosystems Engineering
 - **GitHub Username:** akinyiochieng2006-bot
 - **Assigned Scenario:** Distance Travelled
-- **Variant ID:** REG B
+- **Variant ID:** ENB211-0121/2025
 - **Date:** 18 November 2026
 
 ## 2. Objectives
@@ -174,7 +174,7 @@ The Pull Request was created to submit my laboratory work to the original reposi
 
 - `07-github-fork.png` – My GitHub fork.
 - `08-feature-branch.png` – My feature branch.
-- `09-first-commit.png` ,09-second commit,– Evidence of at least three meaningful commits (to be added after the third commit).
+- `09-first-commit.png` ,09-second commit.png,09-third-comit.png– Evidence of at least three meaningful commits (to be added after the third commit).
 - `10-pull-request.png` – My open Pull Request, number 13.
 
 ## 11. Screenshots
