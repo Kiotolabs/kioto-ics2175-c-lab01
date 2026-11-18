@@ -2,8 +2,8 @@
  * ICS 2175 - Introduction to Computer Programming
  * Laboratory 01 - Exercise 03: Personalised Calculation
  *
- * Student Name: TODO
- * Registration Number: TODO
+ * Student Name: Clement Lesuuda
+ * Registration Number: ENB211-0013/2025
  * Variant ID: TODO   (assigned by your lecturer, e.g. V07)
  * Scenario: TODO     (assigned by your lecturer)
  *
