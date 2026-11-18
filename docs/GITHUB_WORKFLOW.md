@@ -83,7 +83,8 @@ Update your branch and push again; the pull request updates automatically.
 
 ## Lecturer Review and Grading
 
-1. Open the pull request and check the GitHub Actions validation summary.
+1. Open the pull request and approve the workflow run if it is pending (first-time contributor).
+2. Check the GitHub Actions validation summary.
 2. Review code, report and evidence in the PR.
 3. Use **Request changes** to ask for fixes; students push to the same branch and the PR updates.
 4. Approve and merge only after all issues are resolved.

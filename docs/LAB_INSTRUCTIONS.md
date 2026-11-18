@@ -71,7 +71,16 @@ Complete an individual calculation assigned to you by the lecturer.
 
 ### Your Variant
 
-Your lecturer will give you a **Variant ID** (for example `V07`) and the matching scenario.
+Look up your variant yourself (no lecturer step needed):
+
+```bash
+python tools/variant_lookup.py --id "ENE-01-1234-26"
+```
+
+This prints your Variant ID, scenario, two input values, operation and required output label.
+It does **not** print the expected answer: compute that yourself.
+
+Your lecturer may also give you a **Variant ID** (for example `V07`) directly.
 Record the following in a comment block at the top of your source file:
 
 ```c

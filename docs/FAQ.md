@@ -29,6 +29,10 @@ are signed in and that your account can create repositories.
 **Q: My pull request shows no changes.**  
 A: Make sure you committed and pushed on your feature branch, not on `main`.
 
+**Q: My pull request shows "Waiting for approval" or no checks.**  
+A: For security, GitHub requires a maintainer to approve workflow runs from first-time
+contributors. Your lecturer will approve the run; after that validation proceeds automatically.
+
 **Q: Can I merge my own pull request?**  
 A: No. Only the lecturer merges after review.
 
