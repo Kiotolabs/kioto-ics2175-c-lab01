@@ -4,6 +4,8 @@
 
 ## Getting Started with C Programming
 
+---
+
 ### 1. Cover Information
 
 - **Student Full Name:** Ruth Owiti
@@ -41,7 +43,7 @@ The following software and hardware were used during the practical:
 - **Compiler:** GNU GCC 14.2.0
 - **Programming Language:** C
 - **Version Control Platform:** GitHub
-- **Git Client:** GitHub Desktop
+- **Git Client:** Git and GitHub Desktop
 - **Laptop Model:** HP EliteBook 830 G6
 - **RAM:** 8 GB
 
@@ -160,7 +162,7 @@ The following format specifiers were used:
 |---|---|
 | `%d` | Displays an integer |
 | `%.2f` | Displays a floating-point number to two decimal places |
-| `%lf` | Displays a double value |
+| `%lf` | Used to read a double with `scanf()`; for `printf()`, `%f` displays a double |
 | `%c` | Displays a single character |
 
 The exercise demonstrated how different data types are used to store and display information in C programming.
@@ -217,7 +219,7 @@ int main(void)
 }
 ```
 
-The expected output was:
+The program output was:
 
 ```text
 Plot length: 72.00 m
@@ -276,42 +278,55 @@ The workflow involved the following activities:
 
 1. Signing into a GitHub account.
 2. Forking the official Kiotolabs laboratory repository.
-3. Installing and signing into GitHub Desktop.
-4. Cloning the personal fork to the local computer.
-5. Creating an individual working branch.
-6. Completing the three programming exercises in the supplied source files.
-7. Saving and committing the completed work.
-8. Pushing the branch to GitHub.
-9. Preparing a pull request to the original Kiotolabs repository.
+3. Cloning the personal fork to the local computer.
+4. Creating an individual working branch.
+5. Completing the three programming exercises in the supplied source files.
+6. Saving and committing the completed work.
+7. Pushing the branch to GitHub.
+8. Opening a pull request to the original Kiotolabs repository for review.
 
-The individual branch was required to follow this format:
+The individual branch used was:
 
 ```text
-student/ENB211-0122/2025/lab01
+student/enb211-0122/2025/lab01
 ```
 
-At least three meaningful commits were required:
+The work was organised into meaningful commits covering:
 
 1. Complete Hello Kioto exercise.
 2. Complete variables and data types exercise.
 3. Complete personalised plot area calculation.
 
+Additional evidence files were also committed to the repository.
+
 A commit records changes made to the repository, while a pull request allows the lecturer to review the submitted work.
 
 **GitHub username:** ruthowiti19-netizen
 
-**GitHub repository URL:**
+**Personal fork URL:**
 
 https://github.com/ruthowiti19-netizen/kioto-ics2175-c-lab01
 
-**Pull request URL:** To be added after creating the pull request.
+**Original repository URL:**
+
+https://github.com/Kiotolabs/kioto-ics2175-c-lab01
+
+**Pull Request Title:**
+
+ICS 2175 Lab 01: C Programming Fundamentals – Ruth Owiti
+
+**Pull Request URL:**
+
+https://github.com/Kiotolabs/kioto-ics2175-c-lab01/pull/12
+
+The completed assignment was pushed to the personal GitHub fork, and Pull Request #12 was opened against the original Kiotolabs repository for review.
 
 **Evidence:**
 
 - Screenshot 07: GitHub fork.
 - Screenshot 08: Individual feature branch.
-- Screenshot 09: Three separate commits.
-- Screenshot 10: Pull request (to be added after creation).
+- Screenshot 09: Three meaningful commits.
+- Screenshot 10: Created pull request.
 
 ---
 
@@ -319,18 +334,26 @@ https://github.com/ruthowiti19-netizen/kioto-ics2175-c-lab01
 
 The following screenshots provide evidence of the practical activities performed.
 
-1. Code::Blocks installation/About dialog.
-2. Project setup in Code::Blocks.
-3. Successful compilation showing zero errors and zero warnings.
-4. Exercise 1 – Hello Kioto output.
-5. Exercise 2 – Variables and data types output.
-6. Exercise 3 – Personalised calculation output.
-7. GitHub fork.
-8. Individual feature branch.
-9. At least three meaningful commits.
-10. Pull request (to be added after creation).
+| Screenshot | Description | Evidence filename |
+|---|---|---|
+| 01 | Code::Blocks installation/About dialog | `01-codeblocks-about.png` |
+| 02 | Project setup in Code::Blocks | `02-project-setup.png` |
+| 03 | Successful compilation | `03-successful-build.png` |
+| 04 | Exercise 1 – Hello Kioto output | `04-exercise-01-output.png` |
+| 05 | Exercise 2 – Variables and data types output | `05-exercise-02-output.png` |
+| 06 | Exercise 3 – Personalised calculation output | `06-exercise-03-output.png` |
+| 07 | GitHub fork | `07-github-fork.png` |
+| 08 | Individual feature branch | `08-feature-branch.png` |
+| 09 | Three separate commit screenshots | `evidence commit01.png`, `evidence commit-02.png`, `evidence commit03.png` |
+| 10 | Pull request | `pull-request.png` |
 
-The screenshots are saved in the `report/evidence/` directory.
+Additional exercise evidence files include:
+
+- `exercise-01-hello_kioto.png`
+- `exercise02_variables.png`
+- `exercise03_personalised_calculation.c.png`
+
+All screenshots and supporting evidence are saved in the `report/evidence/` directory.
 
 ---
 
@@ -346,7 +369,7 @@ The personalised calculation helped me understand how arithmetic operations can 
 
 One of the challenges I encountered was understanding the importance of correct syntax, especially the use of semicolons and newline characters. Testing these changes helped me understand how small modifications can affect program execution.
 
-I also learned the importance of GitHub in storing programming work, tracking changes and submitting projects for review.
+I also learned the importance of GitHub in storing programming work, tracking changes and submitting projects for review. Working with branches, commits and pull requests helped me understand the importance of version control in programming projects.
 
 In future practicals, I intend to pay more attention to program structure, variable naming and testing my code before submission.
 
