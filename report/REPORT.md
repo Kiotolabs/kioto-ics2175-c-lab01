@@ -41,9 +41,9 @@ After setting up the programming environment, I opened Code::Blocks and prepared
 
 **Screenshots:**
 
-1. `01-codeblocks-installation.png` – Evidence of Code::Blocks installation or About dialog.
-2. `02-project-in-codeblocks.png` – The laboratory project opened in Code::Blocks.
-3. `03-successful-build.png` – Successful compilation showing zero errors and zero warnings.
+- `01-codeblocks-about.png` – Code::Blocks About dialog.
+- `01-codeblocks-project.png` – Laboratory project in Code::Blocks.
+- `successful-build log.png` – Successful build evidence.
 
 ## 5. Hello Kioto Implementation
 
@@ -67,9 +67,7 @@ int main(void)
 
 The program displayed the greeting message successfully when executed.
 
-**Screenshot:**
-
-`04-exercise1-output.png` – Output of Exercise 1 running in the console.
+**Screenshot:** `04-exercise1-output.png` – Output of Exercise 1 running in the console.
 
 ## 6. Explanation of C Program Structure
 
@@ -86,8 +84,6 @@ Understanding these parts helped me learn how a basic C program is written and e
 ## 7. Variables and Data Types
 
 In Exercise 2, I declared and initialized four variables using different C data types.
-
-The variables used were:
 
 | Variable | Data type | Value |
 |---|---|---|
@@ -111,9 +107,7 @@ I also used format specifiers to display the values:
 
 The program produced the expected output.
 
-**Screenshot:**
-
-`05-exercise2-output.png` – Output showing the variables and their values.
+**Screenshot:** `05-exercise2-output.png` – Output showing the variables and their values.
 
 ## 8. Personalised Calculation
 
@@ -138,9 +132,7 @@ I used variables to store the average speed and time. I then used the multiplica
 
 The program displayed the final distance as 288 kilometres.
 
-**Screenshot:**
-
-`06-exercise3-output.png` – Output showing the calculated distance travelled.
+**Screenshot:** `06-exercise3-output.png` – Output showing the calculated distance travelled.
 
 ## 9. Testing and Troubleshooting
 
@@ -163,41 +155,33 @@ The steps involved were:
 3. Creating a feature branch for my laboratory work.
 4. Adding and editing the C source files.
 5. Saving changes using Git commits.
-6. Pushing the feature branch to my GitHub account.
+6. Pushing the feature branch to GitHub.
 7. Creating a Pull Request to the original repository.
 
 **GitHub details:**
 
 - **GitHub Username:** akinyiochieng2006-bot
 - **Fork Repository:** https://github.com/akinyiochieng2006-bot/kioto-ics2175-c-lab01
-- **Feature Branch:** student/ENB211-0121/2025/lab01
-- **Pull Request Link:** TO BE ADDED AFTER CREATING THE PULL REQUEST
+- **Feature Branch:** `student/ENB211-0121/2025/lab01`
+- **Pull Request Number:** #13
+- **Pull Request Status:** Open
+- **Pull Request Link:** https://github.com/Kiotolabs/kioto-ics2175-c-lab01/pull/13
+- **Target Branch:** `main`
+
+The Pull Request was created to submit my laboratory work to the original repository. It had two commits at the time of taking the screenshot.
 
 **Screenshots:**
 
-1. `07-github-fork.png` – Screenshot showing my GitHub fork.
-2. `08-feature-branch.png` – Screenshot showing my feature branch.
-3. `09-three-commits.png` – Screenshot showing at least three meaningful commits.
-4. `10-pull-request.png` – Screenshot showing my Pull Request.
+- `07-github-fork.png` – My GitHub fork.
+- `08-feature-branch.png` – My feature branch.
+- `09-first-commit.png` ,09-second commit,– Evidence of at least three meaningful commits (to be added after the third commit).
+- `10-pull-request.png` – My open Pull Request, number 13.
 
 ## 11. Screenshots
 
-The following screenshots provide evidence of the work completed during this laboratory:
+The screenshots provide evidence of the work completed during this laboratory, including software setup, project development, program execution and GitHub submission.
 
-| No. | Screenshot filename | Description |
-|---|---|---|
-| 1 | 01-codeblocks-installation.png | Code::Blocks installation/About |
-| 2 | 02-project-in-codeblocks.png | Project in Code::Blocks |
-| 3 | 03-successful-build.png | Successful build |
-| 4 | 04-exercise1-output.png | Exercise 1 output |
-| 5 | 05-exercise2-output.png | Exercise 2 output |
-| 6 | 06-exercise3-output.png | Exercise 3 output |
-| 7 | 07-github-fork.png | GitHub fork |
-| 8 | 08-feature-branch.png | Feature branch |
-| 9 | 09-three-commits.png | Three meaningful commits |
-| 10 | 10-pull-request.png | Pull Request |
-
-All screenshots should be saved in the `report/SCREENSHOTS/` folder.
+All screenshots are saved in the `report/SCREENSHOTS/` folder.
 
 ## 12. Individual Reflection
 
