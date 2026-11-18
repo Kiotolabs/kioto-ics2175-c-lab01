@@ -20,9 +20,16 @@
 int main(void)
 {
     /* TODO: Declare input variables with your assigned values */
+    int length = 24;
+    int width = 13;
     /* TODO: Declare a result variable */
+    int area;
     /* TODO: Perform the required arithmetic operation */
+    area = length * width;
     /* TODO: Print the result using the required output label */
+    printf("Length (m): %d\n", length);
+    printf("Width (m): %d\n", width);
+    printf("Area : %d\n" , area);
 
     return 0;
 }

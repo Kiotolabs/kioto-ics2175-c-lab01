@@ -19,8 +19,17 @@ int main(void)
     /* TODO: Declare and initialise a float variable */
     /* TODO: Declare and initialise a double variable */
     /* TODO: Declare and initialise a char variable */
+    int numberOfBooks = 12;
+    float pricePerBook = 350.50f;
+    char category = 'A';
+    double discounted_price = 340.94;
 
     /* TODO: Print each value with a label and the correct format specifier */
+     printf("Number of books: %d\n", numberOfBooks);
+    printf("Price per book: %.2f\n", pricePerBook);
+    printf("Category: %c\n", category);
+    printf("discounted_price: %.2lf\n", discounted_price);
+
 
     return 0;
 }
