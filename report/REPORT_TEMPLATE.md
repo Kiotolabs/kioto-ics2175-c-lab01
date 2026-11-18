@@ -7,7 +7,7 @@
 - **Programme:** B.Sc.in Agricultural and Biosystems Engineering
 - **GitHub Username:** njoguvictor91-a11y
 - **Assigned Scenario:** Campus stationery desk calculating the total cost of an order.
-- **Variant ID:** ENB211-0018/2025
+- **Variant ID:** None
 - **Date:** 17 November 2026
 
 ## 2. Objectives
