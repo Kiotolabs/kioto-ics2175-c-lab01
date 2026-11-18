@@ -2,8 +2,8 @@
  * ICS 2175 - Introduction to Computer Programming
  * Laboratory 01 - Exercise 02: Variables and Data Types
  *
- * Student Name: TODO
- * Registration Number: TODO
+ * Student Name: BENEDICT MBATI
+ * Registration Number: ENB211-0056/2025
  *
  * Instructions:
  *   - Declare and initialise one int, one float, one double and one char.

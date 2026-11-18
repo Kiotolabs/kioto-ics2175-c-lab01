@@ -18,7 +18,7 @@
 int main(void)
 {
     /* TODO: Print "Hello, Kioto!" */
-    printf("Good morning Koome \n");
+    printf("Hello,Kioto! \n");
 
     /* TODO: Print a second line introducing your programme or course */
     printf("I am learning the C programming language.\n");
