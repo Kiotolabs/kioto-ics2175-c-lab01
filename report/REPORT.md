@@ -1,12 +1,12 @@
 ICS 2175 – Laboratory 01 Report
 1. Cover Information
-Student Full Name: HAGREAVES ODHIAMBO
-Registration Number: ENB211-0061/2025
-Programme: Bsc. Agricultural and Biosystems Engineering
-GitHub Username: hagreaves-odhiambo
-Assigned Scenario: Total computer workstations
-Variant ID: V14
-Date: 17th November 2026
+  Student Full Name: HAGREAVES ODHIAMBO
+  Registration Number: ENB211-0061/2025
+  Programme: Bsc. Agricultural and Biosystems Engineering
+  GitHub Username: hagreaves-odhiambo
+  Assigned Scenario: Total computer workstations
+  Variant ID: V14
+  Date: 17th November 2026
 2. Objectives
 The objective of this lab was to set up a working C programming environment on Windows using Code::Blocks and the GNU GCC compiler. I also aimed to write, compile, and debug basic C programs using variables and format specifiers, and submit my work through a GitHub fork, branch, and pull request
 
