@@ -1,38 +1,34 @@
+
 /*
  * ICS 2175 - Introduction to Computer Programming
  * Laboratory 01 - Exercise 03: Personalised Calculation
  *
- * Student Name: PATRICKNTHANGA MUTISO
+ * Student Name: PATRICK NTHANGA MUTISO
  * Registration Number: ENB211-0026/2025
- * Variant ID:   (ENB211-0026/2025)
- * Scenario:     (A small farm records the area of a rectangle demonstration plot)
+ * Variant ID: V02
+ * Scenario: Stationery order cost
  *
- * Instructions:
- *   - Record your assigned variant details above.
- *   - Use the two input values given for your variant.
- *   - Perform the required arithmetic operation.
- *   - Store the result in a meaningfully named variable.
- *   - Print the result using the required output label.
+ * Input value 1: 15
+ * Input value 2: 12
+ * Operation: Multiply
+ * Required output label: Total cost
  */
-
 
 #include <stdio.h>
 
 int main(void)
 {
-    float plotLength = 24.0;
-    float plotWidth = 13.0;
-    float plotArea;
-    char plotCategory = 'A';
+    int notebooks = 15;
+    int costPerNotebook = 12;
+    int totalCost;
 
-    plotArea = plotLength * plotWidth;
+    totalCost = notebooks * costPerNotebook;
 
-    printf("Farm Plot Area Calculation\n");
-    printf("---------------------------\n");
-    printf("Plot category: %c\n", plotCategory);
-    printf("Plot length: %.2f metres\n", plotLength);
-    printf("Plot width: %.2f metres\n", plotWidth);
-    printf("Plot area: %.2f square metres\n", plotArea);
+    printf("Stationery Order Cost Calculation\n");
+    printf("---------------------------------\n");
+    printf("Number of notebooks: %d\n", notebooks);
+    printf("Cost per notebook: %d\n", costPerNotebook);
+    printf("Total cost: %d\n", totalCost);
 
     return 0;
 }
