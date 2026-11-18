@@ -15,12 +15,15 @@
 
 int main(void)
 {
-    /* TODO: Declare and initialise an int variable */
-    /* TODO: Declare and initialise a float variable */
-    /* TODO: Declare and initialise a double variable */
-    /* TODO: Declare and initialise a char variable */
+    int studentAge = 20;
+    float averageScore = 85.5f;
+    double schoolFees = 45000.75;
+    char grade = 'A';
 
-    /* TODO: Print each value with a label and the correct format specifier */
+    printf("Student Age: %d\n", studentAge);
+    printf("Average Score: %.1f\n", averageScore);
+    printf("School Fees: %.2lf\n", schoolFees);
+    printf("Grade: %c\n", grade);
 
     return 0;
 }
