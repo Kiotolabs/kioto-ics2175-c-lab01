@@ -44,19 +44,41 @@ TODO: Explain your assigned scenario, input values, operation and result. Includ
 
 9. Testing and Troubleshooting
 To verify that the program output was accurate without relying solely on the console display, I performed the calculation manually using a calculator (`30 × 3 = 90`). The manual result matched the `Total workstations: 90` output produced by my compiled C program, and changing an input value during testing updated the product proportionally.
+#include <stdio.h>
 
-10. GitHub Workflow
-- **Forked Repository URL:** ``
+int main(void)
+{
+    int workstationsPerRoom = 30;
+    int numberOfRooms = 3;
+    char lab = 'S';
+
+    int totalWorkstations = workstationsPerRoom * numberOfRooms;
+
+    printf("Order summary: %d workstations per room in lab %c  with %d as number of rooms in the lab and total workstations is %d.\n", workstationsPerRoom, lab, numberOfRooms, totalWorkstations);
+
+    return 0;
+
+}
+### Independent Verification
+To verify that the program output was accurate without relying solely on the console display, I performed the calculation manually using a calculator (`30 × 3 = 90`). The manual result matched the `Total workstations: 90` output produced by my compiled C program, and changing an input value during testing updated the product proportionally.
+<img width="1366" height="768" alt="Screenshot 2026-11-18 062640" src="https://github.com/user-attachments/assets/f16c156e-e7f9-4ea0-b76c-924b05d538d8" />
+
+11. GitHub Workflow
+- **Forked Repository URL:** `[https://github.com/hagreaves-odhiambo/kioto-ics2175-c-lab01/blob/student/ENB211-0061/2025/lab01](https://github.com/hagreaves-odhiambo/kioto-ics2175-c-lab01)`
 - **Working Branch:** `student/ENB211-0061-2025/lab01`
 - **Commit Summary:**
   1. `Complete hello world exercise` — implemented `src/exercise01_hello_kioto.c`.
   2. `Implement variables and personalised calculation` — completed `src/exercise02_variables.c` and `src/exercise03_personalised_calculation.c` for Variant V14.
   3. `Complete lab report and student metadata` — updated `README.md` and `report/REPORT.md`.
-- **Pull Request URL:** ``
+- **Pull Request URL:**
+### Role of Commits and Pull Requests
+A **Git commit** preserves a permanent, timestamped snapshot of changes made to repository files along with a descriptive message, creating a clear history of progress. A **pull request (PR)** proposes merging changes from my student branch into the upstream `Kiotolabs/kioto-ics2175-c-lab01` `main` branch, enabling automated GitHub Actions validation checks and lecturer code review before integration. 
 
 11. Screenshots
 <img width="1366" height="768" alt="Screenshot 2026-11-17 191623" src="https://github.com/user-attachments/assets/2ac93d10-d213-4a7d-ac0f-68667b66e60c" />
 <img width="1366" height="766" alt="Screenshot 2026-11-18 000352" src="https://github.com/user-attachments/assets/e2aea55f-e406-4f45-badf-97bc866781ea" />
+<img width="1366" height="768" alt="Screenshot 2026-11-18 063208" src="https://github.com/user-attachments/assets/8ee7812a-1ba9-4458-a36e-11347deca461" />
+<img width="1366" height="768" alt="Screenshot 2026-11-18 062640" src="https://github.com/user-attachments/assets/f16c156e-e7f9-4ea0-b76c-924b05d538d8" />
 
 
 12. Individual Reflection
