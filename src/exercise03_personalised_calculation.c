@@ -2,10 +2,10 @@
  * ICS 2175 - Introduction to Computer Programming
  * Laboratory 01 - Exercise 03: Personalised Calculation
  *
- * Student Name: TODO
- * Registration Number: TODO
- * Variant ID: TODO   (assigned by your lecturer, e.g. V07)
- * Scenario: TODO     (assigned by your lecturer)
+ * Student Name: MURIUKI RISPER MUKAMI
+ * Registration Number: ENB211-0011/2025
+ * Variant ID: V18
+ * Scenario: Distance travelled = speed * time
  *
  * Instructions:
  *   - Record your assigned variant details above.
@@ -19,10 +19,14 @@
 
 int main(void)
 {
-    /* TODO: Declare input variables with your assigned values */
-    /* TODO: Declare a result variable */
-    /* TODO: Perform the required arithmetic operation */
-    /* TODO: Print the result using the required output label */
+    int averageSpeed = 144;
+    float timeHours = 1.5f;
+    float distanceTravelled = averageSpeed * timeHours;
+
+    printf("Average speed (Km/h): %d\n", averageSpeed);
+    printf("Time (hours): %.1f\n", timeHours);
+    printf("operation: speed * time\n");
+    printf("Distance travelled: %.2f Km\n", distanceTravelled);
 
     return 0;
 }
