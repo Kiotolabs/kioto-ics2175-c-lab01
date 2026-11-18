@@ -15,8 +15,8 @@
 
 int main(void)
 {
-    int numberOfNotebooks = 8;
-    float pricePerNotebook = 125.5;
+    int workstationsPerLab = 30;
+    float unitCost = 125.50f;
     char itemCategory = 'S';
 
     return 0;
