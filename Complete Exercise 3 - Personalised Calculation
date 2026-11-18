@@ -1,0 +1,26 @@
+
+/*
+ * ICS 2175 - Introduction to Computer Programming
+ * Laboratory 01 - Exercise 03: Personalised Calculation
+ *
+ * Student Name: Kepha Asino
+ * Registration Number: ENB211-0044/2024
+ * Variant ID: V17
+ * Scenario: Distance travelled
+ */
+
+#include <stdio.h>
+
+int main(void)
+{
+    double speed = 40.0;
+    double time = 3.0;
+    double distance;
+
+    /* Calculate distance by multiplying speed by time */
+    distance = speed * time;
+
+    printf("Distance: %.2f\n", distance);
+
+    return 0;
+}
