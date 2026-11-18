@@ -21,10 +21,10 @@ Explain your own program and provide evidence of the process you followed.
 
 ## 3. Software and Hardware Environment
 
-- **Operating System:** TODO (e.g. Windows10)
-- **IDE:** Code::Blocks TODO (25.03)
-- **Compiler:** GCC TODO(GNU GCC))
-- **Hardware:** TODO (HP PROBOOK)
+- **Operating System:** Windows10
+- **IDE:** Code::Blocks version 25.03
+- **Compiler:** GNU GCC Compiler
+- **Hardware:** HP PROBOOK
 
 ## 4. Code::Blocks Installation and Configuration
 
@@ -164,7 +164,32 @@ TODO: Describe your fork, branch, commits and pull request (include screenshots/
 
 ## 11. Screenshots
 
-TODO: Embed screenshots with captions.
+
+![Git pull](screenshot_git_pull.png)
+
+![Git fork](screenshot_git_fork.png)
+
+![Git commit](screenshot_git_commit.png)
+
+![Exercise 3 console](screenshot_exercise03_console.png)
+
+![Exercise 3 code](screenshot_exercise03_code.png)
+
+![Exercise 2 code](screenshot_exercise02_code.png)
+
+![Exercise 1 error](screenshot_exercise01_error.png)
+
+![Exercise 1 console](screenshot_exercise01_console.png)
+
+![Exercise 1 code](screenshot_exercise01_code.png)
+
+![Exercise 2 console](screenshot_excercise_02_console.png)
+
+![About dialogue box](screenshot_codeblocks_about_dialogue.png)
+
+![Codeblocks Part One](screenshot_codeblocks.png)
+
+
 
 ## 12.coding as a programming language
 
