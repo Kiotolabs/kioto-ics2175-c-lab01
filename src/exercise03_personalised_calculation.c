@@ -2,8 +2,8 @@
  * ICS 2175 - Introduction to Computer Programming
  * Laboratory 01 - Exercise 03: Personalised Calculation
  *
- * Student Name: TODO
- * Registration Number: TODO
+ * Student Name: MARIANA AKOTH JUMA
+ * Registration Number: ENB211-0044/2025
  * Variant ID: TODO   (assigned by your lecturer, e.g. V07)
  * Scenario: TODO     (assigned by your lecturer)
  *
@@ -19,10 +19,18 @@
 
 int main(void)
 {
-    /* TODO: Declare input variables with your assigned values */
-    /* TODO: Declare a result variable */
-    /* TODO: Perform the required arithmetic operation */
-    /* TODO: Print the result using the required output label */
+     int numberOfNOTEBooks=16;
+     float pricePerNoteBook=125.50F;
+     char category='A'
+
+     float Ordertotal=numberOfNOTEBooks*pricePerNoteBOOK;
+
+     printf("Number of books; 5d/n" ,numberOfNOTEBooks);
+     printf("Price per book; 5.2f/n",pricePerNoteBooks);
+     printf("Category: 5c/n", category);
+     printf("Total cost :%.2f/n" ,Ordertotal);
+
+
 
     return 0;
 }
