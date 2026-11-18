@@ -16,8 +16,9 @@
 int main(void)
 {
     int workstationsPerLab = 30;
-    float unitCost = 125.50f;
-    char itemCategory = 'S';
+    float unitCost = 125.50f; 
+    char lab = 'S';
+    printf("Lab %c has %d workstations at %.2f each.\n", lab, workstationsPerLab, unitCost);
 
     return 0;
 }
