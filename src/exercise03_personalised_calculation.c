@@ -2,30 +2,23 @@
  * ICS 2175 - Introduction to Computer Programming
  * Laboratory 01 - Exercise 03: Personalised Calculation
  *
- * Student Name: TODO
- * Registration Number: TODO
- * Variant ID: TODO   (assigned by your lecturer, e.g. V07)
- * Scenario: TODO     (assigned by your lecturer)
- *
- * Instructions:
- *   - Record your assigned variant details above.
- *   - Use the two input values given for your variant.
- *   - Perform the required arithmetic operation.
- *   - Store the result in a meaningfully named variable.
- *   - Print the result using the required output label.
+ * Student Name: HAGREAVES ODHIAMBO
+ * Registration Number: ENB211-0061/2025
+ * Variant ID: V14   (assigned by your lecturer, e.g. V07)
+ * Scenario:     
  */
 
 #include <stdio.h>
 
 int main(void)
 {
-    int numberOfNotebooks = 8;
-    float pricePerNotebook = 125.5;
-    char itemCategory = 'S';
+    int workstationsPerRoom = 30;
+    int numberOfRooms = 3;
+    char lab = 'S';
 
-    float OrderTotal = numberOfNotebooks * pricePerNotebook;
+    int totalWorkstations = workstationsPerRoom * numberOfRooms;
 
-    printf("Order summary: %d notebooks in category %c  with Ksh%.2f as price per book and total cost is Ksh%.2f.\n", numberOfNotebooks, itemCategory, pricePerNotebook, OrderTotal);
+    printf("Order summary: %d workstations per room in lab %c  with %d as number of rooms in the lab and total workstations is %d.\n", workstationsPerRoom, lab, numberOfRooms, totalWorkstations);
 
     return 0;
 }
