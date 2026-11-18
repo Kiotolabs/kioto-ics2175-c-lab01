@@ -1,28 +1,29 @@
 /*
  * ICS 2175 - Introduction to Computer Programming
- * Laboratory 01 - Exercise 03: Personalised Calculation
+ * Laboratory 01 - Exercise 02: Variables and Data Types
  *
- * Student Name: TODO
- * Registration Number: TODO
- * Variant ID: TODO   (assigned by your lecturer, e.g. V07)
- * Scenario: TODO     (assigned by your lecturer)
+ * Student Name: Patricia Ndirangu
+ * Registration Number: enb211-0045/2025
  *
  * Instructions:
- *   - Record your assigned variant details above.
- *   - Use the two input values given for your variant.
- *   - Perform the required arithmetic operation.
- *   - Store the result in a meaningfully named variable.
- *   - Print the result using the required output label.
+ *   - Declare and initialise one int, one float, one double and one char.
+ *   - Use meaningful variable names.
+ *   - Display each value with the correct printf format specifier.
  */
 
 #include <stdio.h>
 
 int main(void)
 {
-    /* TODO: Declare input variables with your assigned values */
-    /* TODO: Declare a result variable */
-    /* TODO: Perform the required arithmetic operation */
-    /* TODO: Print the result using the required output label */
+    int age = 20;
+    float height = 1.65f;
+    double weight = 55.75;
+    char grade = 'A';
+
+    printf("Age: %d\n", age);
+    printf("Height: %.2f metres\n", height);
+    printf("Weight: %.2f kg\n", weight);
+    printf("Grade: %c\n", grade);
 
     return 0;
 }
