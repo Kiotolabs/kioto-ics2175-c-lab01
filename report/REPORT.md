@@ -1,15 +1,16 @@
 # ICS 2175 – LABORATORY 01 REPORT
+
 ## Introduction to Computer Programming: Getting Started with C
 
 ## 1. Cover Information
 
 - **Student Full Name:** Patrick Nthanga Mutiso
-- **Registration Number:** ENB211-0026/[VERIFY YEAR]
+- **Registration Number:** ENB211-0026/2025
 - **Programme:** Agricultural and Biosystems Engineering
 - **GitHub Username:** patoh104
-- **Assigned Scenario:** Rectangular farm plot area calculation
-- **Variant ID:** [INSERT ASSIGNED VARIANT ID]
-- **Date:** 17 November 2026
+- **Assigned Scenario:** Rectangular farm demonstration plot area calculation
+- **Variant ID:** ENB211-0026/2025
+- **Submission Date:** 18 November 2026
 
 ## 2. Objectives
 
@@ -27,38 +28,36 @@ The main objectives of this laboratory were:
 
 | Component | Description |
 |---|---|
-| Operating system | Windows [VERIFY VERSION] |
-| IDE | Code::Blocks [VERIFY VERSION] |
-| Compiler | GCC 14.2.0 |
+| Operating system | Microsoft Windows 11 Pro |
+| IDE | Code::Blocks 25.03 |
+| Compiler | GCC 14.2.0 (64-bit) |
+| wxWidgets | 3.2.7 |
 | Terminal | Windows PowerShell 5.1 |
-| Laptop | HP EliteBook [VERIFY MODEL] |
+| Laptop | HP EliteBook 840 G3 |
+| Installed RAM | 7.88 GB (approximately 8 GB) |
 | Programming language | C |
 
-The GCC compiler was installed as part of the Code::Blocks MinGW environment. Its version was checked using the compiler executable directly from PowerShell.
+The GCC compiler was installed as part of the Code::Blocks MinGW environment. The compiler version was checked from PowerShell using its full executable path.
 
 ## 4. Code::Blocks Installation and Configuration
 
-Code::Blocks was used as the integrated development environment for writing and managing C programs.
+Code::Blocks 25.03 was used as the integrated development environment (IDE) for writing and managing C programs. The MinGW GCC 14.2.0 compiler was available in the Code::Blocks installation.
 
-The MinGW GCC compiler was used to compile the C source files into executable programs.
-
-The compiler installation was verified through PowerShell using:
+The compiler version was checked using:
 
 ```powershell
 & "C:\Program Files\CodeBlocks\MinGW\bin\gcc.exe" --version
 ```
 
-The compiler returned GCC version 14.2.0.
+The laboratory source files were organised in the repository's src directory. PowerShell was also used to compile and execute individual C source files.
 
-The laboratory source files were organised in the repository's `src` directory. PowerShell was also used to compile and execute the individual C programs.
-
-**Evidence:** Insert the Code::Blocks About dialog and project screenshots in the screenshots section.
+The Code::Blocks About dialog and project setup screenshots are included in the report/screenshots directory.
 
 ## 5. Hello Kioto Implementation – Exercise 1
 
 Exercise 1 involved writing a simple C program that displays a greeting and introduces the programming language.
 
-### Source code
+### Source Code
 
 ```c
 #include <stdio.h>
@@ -67,20 +66,19 @@ int main(void)
 {
     printf("Hello, Kioto!\n");
     printf("I am learning the C programming language.\n");
-
     return 0;
 }
 ```
 
 ### Explanation
 
-The `#include <stdio.h>` directive allows the program to use standard input and output functions.
+- `#include <stdio.h>` includes the standard input/output library, which provides functions such as printf().
+- `int main(void)` defines the main function, where program execution begins.
+- `printf()` displays text on the screen.
+- `\n` moves the output to a new line.
+- `return 0;` indicates successful program termination.
 
-The `main()` function is the starting point of program execution. The `printf()` function displays text on the screen.
-
-The `\n` escape sequence moves the output to a new line. Finally, `return 0` indicates successful program termination.
-
-### Compilation and execution
+### Compilation and Execution
 
 The source file was compiled using GCC through PowerShell:
 
@@ -88,30 +86,30 @@ The source file was compiled using GCC through PowerShell:
 & "C:\Program Files\CodeBlocks\MinGW\bin\gcc.exe" .\src\exercise01_hello_kioto.c -o exercise01.exe
 ```
 
-The program was executed using:
+The executable was run using:
 
 ```powershell
 .\exercise01.exe
 ```
 
-### Actual output
+### Output
 
 ```text
 Hello, Kioto!
 I am learning the C programming language.
 ```
 
-The program compiled and executed successfully.
+Exercise 1 was successfully compiled and executed through PowerShell. Its execution screenshot is included as `04-exercise01-output.png`.
 
 ## 6. Explanation of C Program Structure
 
 A basic C program consists of several important components.
 
-### a) Header file
+### a) Header File
 
-`#include <stdio.h>` includes the standard input/output library, which provides functions such as `printf()`.
+`#include <stdio.h>` includes the standard input/output library, which provides functions such as printf().
 
-### b) Main function
+### b) Main Function
 
 `int main(void)` defines the main function. It is where execution of the program begins.
 
@@ -123,13 +121,15 @@ The opening `{` and closing `}` braces define the beginning and end of a block o
 
 Statements are instructions executed by the computer. For example:
 
-`printf("Hello, Kioto!\n");`
+```c
+printf("Hello, Kioto!\n");
+```
 
 ### e) Semicolon
 
 A semicolon marks the end of a C statement.
 
-### f) Return statement
+### f) Return Statement
 
 `return 0;` indicates that the program has completed successfully.
 
@@ -137,15 +137,26 @@ A semicolon marks the end of a C statement.
 
 Exercise 2 introduced the declaration and use of variables in C.
 
-The program used the following variables:
+### Source Code
 
 ```c
-int numberOfPlots = 2;
-float plotLength = 24.0;
-char plotGrade = 'A';
+#include <stdio.h>
+
+int main(void)
+{
+    int numberOfPlots = 2;
+    float plotLength = 24.0;
+    char plotGrade = 'A';
+
+    printf("Number of plots: %d\n", numberOfPlots);
+    printf("Plot length: %.2f metres\n", plotLength);
+    printf("Plot grade: %c\n", plotGrade);
+
+    return 0;
+}
 ```
 
-### Explanation of data types
+### Explanation of Data Types
 
 | Data type | Variable | Value | Purpose |
 |---|---|---|---|
@@ -153,13 +164,13 @@ char plotGrade = 'A';
 | float | plotLength | 24.0 | Stores a decimal number |
 | char | plotGrade | 'A' | Stores a single character |
 
-### Format specifiers
+### Format Specifiers
 
 - `%d` displays an integer.
 - `%.2f` displays a floating-point number to two decimal places.
 - `%c` displays a single character.
 
-### Expected output
+### Output
 
 ```text
 Number of plots: 2
@@ -167,13 +178,13 @@ Plot length: 24.00 metres
 Plot grade: A
 ```
 
-The execution screenshot and final testing result will be added after verifying Exercise 2.
+The Exercise 2 execution evidence is included as `05-exercise02-output.png`.
 
 ## 8. Personalised Calculation – Exercise 3
 
-The personalised calculation involved determining the area of a rectangular farm plot.
+The personalised calculation involved determining the area of a rectangular farm demonstration plot.
 
-### Given information
+### Given Information
 
 - Length = 24 metres
 - Width = 13 metres
@@ -183,15 +194,21 @@ The personalised calculation involved determining the area of a rectangular farm
 
 Area of a rectangle:
 
-Area = Length × Width
+\[
+A = L \times W
+\]
 
 ### Calculation
 
-Area = 24 × 13
+\[
+A = 24 \times 13
+\]
 
-Area = 312 m²
+\[
+A = 312\ m^2
+\]
 
-### C source code
+### C Source Code
 
 ```c
 #include <stdio.h>
@@ -227,101 +244,108 @@ Plot width: 13.00 metres
 Plot area: 312.00 square metres
 ```
 
-The calculated area was 312.00 square metres. This demonstrates how C programming can be applied to agricultural calculations.
+The calculated area was **312.00 square metres**. This demonstrates how C programming can be applied to a practical agricultural calculation.
 
-**Variant ID:** [INSERT ASSIGNED VARIANT ID]
+The Exercise 3 output evidence is included as `06-exercise03-output.png`. If the screenshot was produced using an online compiler, it should be labelled as online compiler output rather than local Code::Blocks execution.
 
 ## 9. Testing and Troubleshooting
 
-The laboratory programs were compiled using the GCC compiler and tested through Windows PowerShell.
+The laboratory programs were prepared and tested using the GCC compiler and the available execution environments. The evidence screenshots for the three exercises are included in the report screenshots folder.
 
 Several challenges were encountered during the process.
 
-### a) Incorrect directory
+### a) Incorrect Directory
 
-Initially, PowerShell was opened in a directory that did not contain the laboratory source files. The problem was corrected by navigating to the correct repository directory.
+Initially, PowerShell was opened in a directory that did not contain the laboratory source files. The problem was corrected by navigating to the repository directory before running the commands.
 
-### b) Incorrect source file execution
+### b) Incorrect Source File Execution
 
-Code::Blocks initially displayed the output of the farm plot calculation when Exercise 1 was expected. This was traced to the wrong program being built and executed.
+Code::Blocks initially displayed the output of the farm plot calculation when Exercise 1 was expected. This was traced to a different project/source file being built and executed. The correct Exercise 1 source file was subsequently compiled and run directly through PowerShell.
 
-The correct Exercise 1 source file was subsequently compiled directly through PowerShell.
+### c) Windows Execution Restriction
 
-### c) Compilation and execution
-
-Exercise 1 was successfully compiled and executed. Its output matched the expected greeting.
-
-The farm plot calculation output was also obtained and showed the correct result of 312.00 square metres.
-
-Exercise 2 execution and the final Code::Blocks build evidence will be added after verification.
+During testing, Windows security controls blocked execution of a locally generated executable on one occasion. Smart App Control was kept enabled. The testing evidence should identify the application or environment that produced each output and should not describe a blocked run as successful.
 
 These challenges improved my understanding of file paths, source files, compilation and program execution.
 
-## 10. GitHub Workflow
+## 10. GitHub Workflow and Pull Request
 
 GitHub was used to manage and submit the laboratory source files.
 
-The original laboratory repository was forked to my GitHub account.
+- **GitHub Username:** patoh104
+- **Fork Repository:** https://github.com/patoh104/kioto-ics2175-c-lab01
+- **Original Repository:** https://github.com/Kiotolabs/kioto-ics2175-c-lab01
+- **Student Branch:** `student/ENB211-0026/2025/lab01`
 
-**GitHub username:** `patoh104`
-
-**Fork repository:**
-
-https://github.com/patoh104/kioto-ics2175-c-lab01
-
-The student branch created for the assignment was:
-
-`student/ENB211-0026/2026/lab01`
-
-The following commit messages were used for the three exercises:
+The three exercise commits were:
 
 1. Add Hello Kioto C program
 2. Add C variables and data types exercise
 3. Add personalised farm area calculation
 
-The source files were maintained in the `src` directory.
+The Pull Request also contains a further commit for completing and verifying the laboratory exercises. GitHub displayed four commits in the Pull Request.
 
-The final submission will be made through a Pull Request from the student branch to the original repository.
+### Pull Request Details
 
-**Pull Request URL:** [INSERT AFTER CREATING THE PULL REQUEST]
+- **Pull Request:** #6
+- **Title:** ICS 2175 Lab 01: Getting Started with C – ENB211-0026/2025
+- **Author:** patoh104
+- **Source Branch:** `student/ENB211-0026/2025/lab01`
+- **Target Repository:** Kiotolabs/kioto-ics2175-c-lab01
+- **Status when checked:** Open
+- **Pull Request URL:** https://github.com/Kiotolabs/kioto-ics2175-c-lab01/pull/6
 
-## 11. Screenshots
+The Pull Request screenshot and commit-history screenshot are included in the report/screenshots directory.
 
-The following evidence will be included in the report:
+An open Pull Request means the submission has been proposed for review; it does not mean that it has already been merged.
 
-1. Code::Blocks installation or About dialog.
-2. Laboratory project open in Code::Blocks.
-3. Successful build log showing zero errors and zero warnings.
-4. Exercise 1 successful execution.
-5. Exercise 2 successful execution.
-6. Exercise 3 successful execution.
-7. GitHub fork repository.
-8. Student branch.
-9. Three GitHub commits.
-10. Pull Request.
+## 11. Screenshots and Evidence
 
-Each screenshot will be saved in the `report/screenshots/` directory and labelled appropriately.
+The following evidence files are included in the report/screenshots directory:
+
+1. `01-codeblocks-about.png` – Code::Blocks About dialog showing version 25.03.
+2. `02-project-open.png` – laboratory project open in Code::Blocks.
+3. `03-successful-build.png` – successful build log, if the captured log shows a successful build.
+4. `04-exercise01-output.png` – Exercise 1 output.
+5. `05-exercise02-output.png` – Exercise 2 output.
+6. `06-exercise03-output.png` – Exercise 3 output.
+7. `07-github-fork.png` – GitHub fork repository.
+8. `08-github-branch.png` – student branch.
+9. `comit 1.png,commit 2.png,commit 3.png – GitHub commit history.
+10. `10-github-pull-request.png` – Pull Request #6.
+
+The screenshots provide evidence of the programming environment, exercise outputs, repository, branch, commits and Pull Request.
+
+Confirm that the filenames above match the actual files saved in the folder.
 
 ## 12. Individual Reflection
 
-Through this laboratory, I gained practical experience in writing and executing C programs.
+Through this laboratory, I gained practical experience in writing and executing C programs. I learned how to include header files, define the main function, use printf(), declare variables and work with different data types.
 
-I learned how to include header files, define the main function, use printf(), declare variables and work with different data types.
+I also learned how to compile C programs using GCC through PowerShell and how to organise programming projects using GitHub.
 
-I also learned how to compile and execute C programs using GCC through PowerShell.
+One challenge was navigating to the correct project directory and ensuring that the correct source file was being compiled and executed. Solving these problems improved my understanding of the programming environment.
 
-One of the challenges I encountered was navigating to the correct project directory and ensuring that the correct source file was being executed. Solving these problems improved my understanding of the programming environment.
-
-The personalised farm plot calculation helped me understand how programming can be used to solve practical agricultural engineering problems.
-
-I also gained experience using GitHub for source-code management and version control.
+The personalised farm plot calculation helped me understand how programming can be used to solve practical agricultural engineering problems. I also gained experience using GitHub for source-code management and version control.
 
 ## 13. Conclusion
 
-The laboratory introduced the fundamental concepts of the C programming language and provided practical experience in writing, compiling and executing simple programs.
+The laboratory introduced the fundamental concepts of the C programming language and provided practical experience in preparing, compiling and executing simple programs.
 
-The exercises demonstrated the use of output statements, variables, data types and mathematical operations.
+The exercises demonstrated the use of output statements, variables, data types and mathematical operations. The rectangular farm plot calculation gave an area of **312.00 square metres**, demonstrating the application of programming in agricultural and biosystems engineering.
 
-The personalised farm plot calculation produced an area of 312.00 square metres, demonstrating the application of programming in agricultural and biosystems engineering.
+The laboratory also introduced version control through GitHub. The work was submitted through Pull Request #6 for review.
 
-The laboratory also introduced the importance of version control through GitHub, which supports organised development and collaboration.
+---
+
+## Final Submission Checklist
+
+- [x] Student name and registration number are included.
+- [x] Variant ID is included as supplied by the student.
+- [x] Software and hardware details are recorded.
+- [x] Exercise source code and explanations are included.
+- [x] GitHub repository, branch and Pull Request details are included.
+- [x] Evidence screenshots have been added, as confirmed by the student.
+- [ ] Confirm that every screenshot filename matches the actual file in report/screenshots.
+- [ ] Confirm that the Exercise 2 and Exercise 3 screenshots show the correct output and identify the execution environment accurately.
+- [ ] Confirm that the Pull Request is still open or update its status if it has changed.
