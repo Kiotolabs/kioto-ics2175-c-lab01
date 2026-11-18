@@ -1,0 +1,25 @@
+
+/*
+ * ICS 2175 - Introduction to Computer Programming
+ * Laboratory 01 - Exercise 02: Variables and Data Types
+ *
+ * Student Name: Kepha Asino
+ * Registration Number: ENB211-0044/2024
+ */
+
+#include <stdio.h>
+
+int main(void)
+{
+    int age = 20;
+    float height = 1.75f;
+    double marks = 85.50;
+    char grade = 'A';
+
+    printf("Age: %d\n", age);
+    printf("Height: %.2f\n", height);
+    printf("Marks: %.2lf\n", marks);
+    printf("Grade: %c\n", grade);
+
+    return 0;
+}
