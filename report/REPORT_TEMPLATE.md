@@ -2,24 +2,24 @@
 
 ## 1. Cover Information
 
-- **Student Full Name:** TODO
-- **Registration Number:** TODO
-- **Programme:** TODO
-- **GitHub Username:** TODO
-- **Assigned Scenario:** TODO
-- **Variant ID:** TODO
-- **Date:** TODO
+- **Student Full Name:** SHARON WANJIRU
+- **Registration Number:** ENB211-0016\2024
+- **Programme:** AGRICULTURE AND BIOSYSTEMS
+- **GitHub Username:** SHARONMUCHIRI374-CREATOR
+- **Assigned Scenario:**HELLO KIOTO 
+- **Variant ID:** KIOTO-ICS2175-C-LAB01
+- **Date:** 18/11/2026
 
 ## 2. Objectives
 
-TODO: List the objectives of this laboratory in your own words.
+UNDERSTAND HOW TO DECLARE AND INITIALIZE VARIABLES
 
 ## 3. Software and Hardware Environment
 
-- **Operating System:** TODO (e.g. Windows 11)
-- **IDE:** Code::Blocks TODO (version)
-- **Compiler:** GCC TODO (version)
-- **Hardware:** TODO (e.g. laptop model, RAM)
+- **Operating System:**  Windows 11
+- **IDE:** Code::Blocks 25.03
+- **Compiler:** GNU GCC
+- **Hardware:** 
 
 ## 4. Code::Blocks Installation and Configuration
 
