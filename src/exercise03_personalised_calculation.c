@@ -19,10 +19,17 @@
 
 int main(void)
 {
-    /* TODO: Declare input variables with your assigned values */
-    /* TODO: Declare a result variable */
-    /* TODO: Perform the required arithmetic operation */
-    /* TODO: Print the result using the required output label */
+    int ticketsSold = 18;
+    float ticketPrice = 300.0;
+    float ticketRevenue;
+    char category = 'A';
+
+    ticketRevenue = ticketsSold * ticketPrice;
+
+    printf("Category: %c\n", category);
+    printf("Tickets Sold: %d\n", ticketsSold);
+    printf("Ticket Price: %.2f\n", ticketPrice);
+    printf("Ticket Revenue: %.2f\n", ticketRevenue);
 
     return 0;
 }
