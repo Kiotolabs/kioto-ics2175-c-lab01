@@ -23,11 +23,15 @@ UNDERSTAND HOW TO DECLARE AND INITIALIZE VARIABLES
 
 ## 4. Code::Blocks Installation and Configuration
 
-TODO: Describe how you installed and configured Code::Blocks and GCC. Include screenshots.
+TODO: Describe how you installed and configured Code::Blocks and GCC. Include screenshots.website
+
+Downloaded code blocks from its official  website
+environment was verified by writing a c program
 
 ## 5. Hello Kioto Implementation
 
 TODO: Explain your Exercise 1 code. Include a code snippet and screenshot of the output.
+
 
 ## 6. Explanation of C Program Structure
 
