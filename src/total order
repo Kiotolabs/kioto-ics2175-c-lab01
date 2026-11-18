@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    int notebooks = 18;
+    float pricePerNotebook = 125.5;
+    float orderTotal;
+
+    orderTotal = notebooks * pricePerNotebook;
+
+    printf("Number of notebooks: %d\n", notebooks);
+    printf("Price per notebook: %.2f\n", pricePerNotebook);
+    printf("Order total: %.2f\n", orderTotal);
+
+    return 0;
+}
