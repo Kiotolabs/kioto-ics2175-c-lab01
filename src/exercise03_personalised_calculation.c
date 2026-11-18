@@ -1,28 +1,18 @@
-/*
- * ICS 2175 - Introduction to Computer Programming
- * Laboratory 01 - Exercise 03: Personalised Calculation
- *
- * Student Name: TODO
- * Registration Number: TODO
- * Variant ID: TODO   (assigned by your lecturer, e.g. V07)
- * Scenario: TODO     (assigned by your lecturer)
- *
- * Instructions:
- *   - Record your assigned variant details above.
- *   - Use the two input values given for your variant.
- *   - Perform the required arithmetic operation.
- *   - Store the result in a meaningfully named variable.
- *   - Print the result using the required output label.
- */
-
 #include <stdio.h>
 
 int main(void)
 {
-    /* TODO: Declare input variables with your assigned values */
-    /* TODO: Declare a result variable */
-    /* TODO: Perform the required arithmetic operation */
-    /* TODO: Print the result using the required output label */
+    double averageSpeed = 192.0;
+    double timeHours = 1.5;
+    char mode = 'R';
+
+    double distanceTravelled = averageSpeed * timeHours;
+
+    printf("Average speed: %.1f km/h\n", averageSpeed);
+    printf("Time: %.1f hours\n", timeHours);
+    printf("Operation: speed x time\n");
+    printf("Distance travelled: %.1f km\n", distanceTravelled);
+    printf("Mode: %c\n", mode);
 
     return 0;
 }

@@ -1,26 +1,16 @@
-/*
- * ICS 2175 - Introduction to Computer Programming
- * Laboratory 01 - Exercise 02: Variables and Data Types
- *
- * Student Name: TODO
- * Registration Number: TODO
- *
- * Instructions:
- *   - Declare and initialise one int, one float, one double and one char.
- *   - Use meaningful variable names.
- *   - Display each value with the correct printf format specifier.
- */
-
 #include <stdio.h>
 
 int main(void)
 {
-    /* TODO: Declare and initialise an int variable */
-    /* TODO: Declare and initialise a float variable */
-    /* TODO: Declare and initialise a double variable */
-    /* TODO: Declare and initialise a char variable */
+    int averageSpeedKmh = 192;
+    float timeHours = 1.5f;
 
-    /* TODO: Print each value with a label and the correct format specifier */
+    float distanceKm = averageSpeedKmh * timeHours;
+
+    printf("Average speed: %d km/h\n", averageSpeedKmh);
+    printf("Time: %.2f hours\n", timeHours);
+    printf("Operation: speed x time\n");
+    printf("Distance travelled: %.2f km\n", distanceKm);
 
     return 0;
 }
