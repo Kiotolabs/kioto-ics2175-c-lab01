@@ -1,14 +1,19 @@
 
-
 #include <stdio.h>
 
 int main()
 {
-    int age = 20;
-    int marks = 80;
+    int num1, num2, sum;
 
-    printf("My age is %d\n", age);
-    printf("My marks are %d\n", marks);
+    printf("Enter first number: ");
+    scanf("%d", &num1);
+
+    printf("Enter second number: ");
+    scanf("%d", &num2);
+
+    sum = num1 + num2;
+
+    printf("The sum is: %d\n", sum);
 
     return 0;
 }
