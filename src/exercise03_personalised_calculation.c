@@ -9,6 +9,8 @@
  * Scenario: Study hours
  */
 
+ 
+
 #include <stdio.h>
 
 int main(void)
