@@ -106,16 +106,16 @@ I compiled and ran all three programs with GCC using `gcc -std=c11 -Wall -Wextra
 
 ## 8. GitHub Workflow
 
-- **Repository URL:** Pending GitHub device authorization
+- **Repository URL:** https://github.com/felistaswanjira-alt/kioto-ics2175-c-lab01
 - **Feature branch:** `student/ENB211-0008-2025/lab01`
-- **Commit practice:** Three exercise/report commits remain pending.
-- **Pull request:** Pending GitHub device authorization
+- **Commits:** Four meaningful commits were created for the two exercises, personalised calculation and report.
+- **Pull request:** https://github.com/Kiotolabs/kioto-ics2175-c-lab01/pull/36
 
 A commit records a named snapshot of the staged files and preserves each change in the repository history. It enables recovery and comparison of earlier states. A pull request proposes the feature branch as a change to `main` and enables review, automated checks, discussion and lecturer approval before merging.
 
 ## 9. Screenshots
 
-Evidence capture was started, but GitHub submission and final repository screenshots could not be completed because GitHub device authorization did not complete and no authenticated Git client was available. The lab directory should contain the source and report files while the remaining screenshots are completed locally.
+Repository evidence is available at https://github.com/felistaswanjira-alt/kioto-ics2175-c-lab01. Pull request evidence is available at https://github.com/Kiotolabs/kioto-ics2175-c-lab01/pull/36.
 
 ## 10. Individual Reflection
 
@@ -123,4 +123,4 @@ I learned the structure of a C program, the relationship between declarations an
 
 ## 11. Conclusion
 
-The programming work was prepared and the Hello Kioto and variable programs were compiled and run successfully. The V06 source compiled, and its result was independently calculated as 35000. GitHub submission remains incomplete because authorization was not confirmed, so the repository and pull request cannot yet be truthfully listed as submitted.
+The programming work was prepared and the Hello Kioto and variable programs were compiled and run successfully. The V06 source compiled, and its result was independently calculated as 35000. The source and report were pushed to a feature branch and submitted through Pull Request 36 to the main repository.
