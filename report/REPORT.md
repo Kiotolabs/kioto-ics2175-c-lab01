@@ -97,7 +97,9 @@ Commit 1 Screenshot: [`report\screenshots\Commit_1_Complete_Hello_Kioto_Exercise
 Commit 2 Screenshot: [`report\screenshots\Commit_2_Implement_variables_and_data_types.png`](report\screenshots\Commit_2_Implement_variables_and_data_types.png) 
 Commit 3 Screenshot: [`report\screenshots\Commit_3_Complete_personalised_calculation.png`](report\screenshots\Commit_3_Complete_personalised_calculation.png) 
 Commit 4 Screenshot: [`report\screenshots\Commit_4_Screenshots.png`](report\screenshots\Commit_4_Screenshots.png)  
-Pull Request Screenshot: [``]()
+Pull Request Screenshot: [`report\screenshots\Pull_Request_Screenshot.png`](report\screenshots\Pull_Request_Screenshot.png) 
+Pull Request Link: https://github.com/Kiotolabs/kioto-ics2175-c-lab01/pull/22 
+
 
 ## 11. Screenshots
 
@@ -125,7 +127,7 @@ Commit 1 Screenshot: [`report\screenshots\Commit_1_Complete_Hello_Kioto_Exercise
 Commit 2 Screenshot: [`report\screenshots\Commit_2_Implement_variables_and_data_types.png`](report\screenshots\Commit_2_Implement_variables_and_data_types.png) 
 Commit 3 Screenshot: [`report\screenshots\Commit_3_Complete_personalised_calculation.png`](report\screenshots\Commit_3_Complete_personalised_calculation.png) 
 Commit 4 Screenshot: [`report\screenshots\Commit_4_Screenshots.png`](report\screenshots\Commit_4_Screenshots.png) 
-Pull Request Screenshot: [``]()
+Pull Request Screenshot: [`report\screenshots\Pull_Request_Screenshot.png`](report\screenshots\Pull_Request_Screenshot.png)
 
 ## 12. Individual Reflection
 
