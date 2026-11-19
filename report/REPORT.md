@@ -108,34 +108,49 @@ Initial: K
 
 ## 8. Personalised Calculation
 
-For Exercise 3, I used the assigned workstation scenario involving Room A and Room B.
+For Exercise 3, I used my assigned V21 scenario, which calculates the total number of study hours.
 
 The input values were:
 
-- Room A = 28 workstations.
-- Room B = 22 workstations.
+- Study hours per day = 4 hours.
+- Number of days = 5 days.
 
-I declared two integer variables and a third variable to store the result.
+**Source code:**
 
-The arithmetic operation was addition.
+```c
+#include <stdio.h>
+
+int main(void)
+{
+    int studyHoursPerDay = 4;
+    int numberOfDays = 5;
+    int totalStudyHours;
+
+    totalStudyHours = studyHoursPerDay * numberOfDays;
+
+    printf("Total study hours: %d\n", totalStudyHours);
+
+    return 0;
+}
+```
 
 **Calculation:**
 
 ```text
-totalWorkstations = roomA + roomB
-totalWorkstations = 28 + 22
-totalWorkstations = 50
+totalStudyHours = studyHoursPerDay * numberOfDays
+totalStudyHours = 4 * 5
+totalStudyHours = 20
 ```
 
 **Program output:**
 
 ```text
-Total workstations: 50
+Total study hours: 20
 ```
 
-The program produced the expected result.
+I independently checked the result by multiplying 4 by 5, which gives 20. The program produced the expected result.
 
-**Variant ID:** ENB211-0029/2025
+**Variant ID:** V21
 
 ## 9. Testing and Troubleshooting
 
