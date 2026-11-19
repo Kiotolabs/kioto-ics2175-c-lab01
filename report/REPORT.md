@@ -8,7 +8,7 @@
 - **GitHub Username:** ndirangupatricia6-tech
 - **Assigned Scenario:** Printing Costs
 - **Variant ID:** V11
-- **Date of Submission:** 18 November 2026
+- **Date of Submission:** 19 November 2026
 - **Course:** ICS 2175 – Introduction to Computer Programming
 - **Laboratory:** Laboratory 01 – Introduction to C Programming
 
