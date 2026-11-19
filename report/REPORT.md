@@ -6,7 +6,7 @@
 - **Registration Number:** ENB211-0029/2025
 - **Programme:** BSc. Computer Technology
 - **GitHub Username:** kyalokennedy142-del
-- **Assigned Scenario:** Room A and Room B workstation calculation
+- **Assigned Scenario:** Study hours calculation
 - **Variant ID:** V21
 - **Date:** 16 November 2026
 
@@ -162,7 +162,7 @@ I performed the following tests:
 
 1. Compiled and executed the Hello Kioto program.
 2. Tested variables and different data types.
-3. Tested the personalised workstation calculation.
+3. Tested the personalised study hours calculation.
 4. Performed a rebuild of the Code::Blocks project.
 5. Confirmed that the successful build produced zero errors and zero warnings.
 
