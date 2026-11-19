@@ -117,6 +117,14 @@ A commit records a named snapshot of the staged files and preserves each change 
 
 Repository evidence is available at https://github.com/felistaswanjira-alt/kioto-ics2175-c-lab01. Pull request evidence is available at https://github.com/Kiotolabs/kioto-ics2175-c-lab01/pull/36.
 
+![Feature branch repository](screenshots/github_fork.png)
+
+**Figure 1:** GitHub fork feature branch showing the submitted lab files.
+
+![Pull request 36](screenshots/pull_request.png)
+
+**Figure 2:** Pull request 36 submitted against the base repository `main` branch.
+
 ## 10. Individual Reflection
 
 I learned the structure of a C program, the relationship between declarations and format specifiers, and the basic stages of a GitHub submission. The most difficult parts were deriving the exact variant and ensuring every source comment and report field matched the registration number. Next time, I would first configure the compiler and branch, then compile after every exercise and save labelled screenshots immediately.
