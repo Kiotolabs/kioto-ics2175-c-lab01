@@ -2,10 +2,10 @@
  * ICS 2175 - Introduction to Computer Programming
  * Laboratory 01 - Exercise 03: Personalised Calculation
  *
- * Student Name: TODO
- * Registration Number: TODO
- * Variant ID: TODO   (assigned by your lecturer, e.g. V07)
- * Scenario: TODO     (assigned by your lecturer)
+ * Student Name: Felistas Wanjira
+ * Registration Number: ENB211-0008/2025
+ * Variant ID: V06
+ * Scenario: Event ticket revenue
  *
  * Instructions:
  *   - Record your assigned variant details above.
@@ -19,10 +19,11 @@
 
 int main(void)
 {
-    /* TODO: Declare input variables with your assigned values */
-    /* TODO: Declare a result variable */
-    /* TODO: Perform the required arithmetic operation */
-    /* TODO: Print the result using the required output label */
+    int ticketsSold = 1000;
+    int ticketPrice = 35;
+    int totalRevenue = ticketsSold * ticketPrice;
 
+    /* Multiply the number of tickets sold by the price of one ticket. */
+    printf("Total revenue: %d\n", totalRevenue);
     return 0;
 }
