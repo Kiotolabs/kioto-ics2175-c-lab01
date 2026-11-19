@@ -5,7 +5,7 @@
  *
  * Student Name: Valentine ndunge
  * Registration Number: ENB211-0026/2024
- * Variant ID: ENB211-0026/2024
+ * Variant ID: V13
  * Scenario: Workstations in Room A and Room B
  */
 

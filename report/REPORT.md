@@ -1,12 +1,14 @@
 # ICS 2175 – INTRODUCTION TO COMPUTER PROGRAMMING
+
 # LABORATORY 01 REPORT
 
 **Student Name:** Valentine Ndunge  
 **Registration Number:** ENB211-0026/2024  
-**Variant ID:** ENB211-0026/2024  
+**Variant ID:** V13  
 **Scenario:** Workstations in Room A and Room B  
 **Programming Language:** C  
-**Programming Environment:** Programiz Online C Compiler  
+**Programming Environment:** - Code::Blocks 
+
 
 ---
 
@@ -38,10 +40,10 @@ The objectives of this laboratory were:
 
 **Software and tools:**
 - Programiz Online C Compiler.
+- Code::Blocks 
 - Google Chrome web browser.
 - Windows PowerShell.
 - Git and GitHub.
--codeblocks
 
 # 4. DEVELOPMENT ENVIRONMENT AND CONFIGURATION
 
@@ -49,11 +51,9 @@ The laboratory required the use of a C programming environment.
 
 I initially attempted to use a local compiler through PowerShell. However, Windows security restrictions blocked the compiler setup or execution.
 
-To continue with the laboratory exercises, I used Programiz Online C Compiler. This allowed me to compile, execute, and test the C programs online.
+To continue with the laboratory exercises, I used Programiz Online C Compiler. This allowed me to write, compile, execute, and test the C programs online.
 
-Programiz was therefore used as an alternative programming environment.
-
-
+Programiz was therefore used as an alternative programming environment to complete the exercises.
 
 # 5. EXERCISE 01: HELLO KIOTO
 
@@ -228,9 +228,17 @@ The pull request should remain open unless the lecturer gives further instructio
 
 # 10. SCREENSHOTS AND EVIDENCE
 
-Screenshots should be inserted in this section to demonstrate the work completed.
+Screenshots showing the work completed are stored in the `report/screenshots/` folder.
 
-/*report/screenshots */ folder
+The screenshots provide evidence of:
+
+- Exercise 01 source code and output.
+- Exercise 02 source code and output.
+- Exercise 03 source code and output.
+- GitHub repository fork.
+- Feature branch.
+- Commit history.
+- Pull request.
 
 # 11. REFLECTION
 
