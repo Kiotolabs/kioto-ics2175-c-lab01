@@ -284,7 +284,7 @@ The errors were corrected by:
 A fork of the laboratory repository was created on GitHub under my account.
 
 The repository was cloned to my local computer so that I could work on the C programming exercises.
-
+**Forked Repository URL:** https://github.com/ndirangupatricia6-tech/kioto-ics2175-c-lab01
 ### 10.2 Branch Creation
 
 I used the following student branch to organise my laboratory work:
@@ -329,29 +329,61 @@ Using Git and GitHub helped me to:
 4. Back up my work on GitHub.
 5. Prepare my work for submission and review.
 
+### 10.6 Pull Request Submission
 
+A Pull Request was created to submit the completed laboratory work for review.
+
+- **Pull Request Number:** #34
+- **Pull Request URL:** https://github.com/Kiotolabs/kioto-ics2175-c-lab01/pull/34
+- **Status:** Open – awaiting lecturer review.
+
+The Pull Request was intentionally left open and unmerged for assessment.
 
 ## 11. Screenshots and Evidence
 
-Screenshots were captured during the laboratory to provide evidence of the development, compilation, execution, and version-control activities completed.
+The following screenshots were captured during the laboratory to demonstrate the development, compilation, execution, and GitHub version-control activities.
 
-The following screenshots are included in the `report/screenshots/` directory:
+### 11.1 Code::Blocks Setup
 
-| No. | Screenshot | Description |
-|---|---|---|
-| 1 | `codeblocks -project-setup.png` | Code::Blocks project setup evidence. |
-| 2 | `codeblocks-aboutlog.png` | Code::Blocks About window showing IDE information. |
-| 3 | `exercise01_hello_kioto.png` | Exercise 1 source code. |
-| 4 | `exercise1-output.png` | Exercise 1 program output. |
-| 5 | `exercise02_variables.png` | Exercise 2 source code. |
-| 6 | `exercise2-output.png` | Exercise 2 program output. |
-| 7 | `exercise03_personalised_calculation.png` | Exercise 3 source code for the V11 Printing Costs scenario. |
-| 8 | `exercise03_output.png` | Exercise 3 program output. |
-| 9 | `successful-build-log.png` | Evidence of successful compilation or build. |
-| 10 | `fork.png` | Evidence of the GitHub repository fork. |
+![Code::Blocks project setup](screenshots/codeblocks%20-project-setup.png)
 
-These screenshots provide evidence of the laboratory activities completed. Additional GitHub screenshots, such as the student branch, commit history, and Pull Request, should be included if those activities were completed.
+![Code::Blocks About information](screenshots/codeblocks-aboutlog.png)
 
+### 11.2 Exercise 1 – Hello Kioto
+
+![Exercise 1 source code](screenshots/exercise01_hello_kioto.png)
+
+![Exercise 1 output](screenshots/exercise1-output.png)
+
+### 11.3 Exercise 2 – Variables and Data Types
+
+![Exercise 2 source code](screenshots/exercise02_variables.png)
+
+![Exercise 2 output](screenshots/exercise2-output.png)
+
+### 11.4 Exercise 3 – Printing Costs
+
+![Exercise 3 source code](screenshots/exercise03_personalised_calculation.png)
+
+![Exercise 3 output](screenshots/exercise03_output.png)
+
+### 11.5 Successful Compilation
+
+![Successful build log](screenshots/successful-build-log.png)
+
+### 11.6 Git and GitHub Evidence
+
+![GitHub repository fork](screenshots/fork.png)
+
+![GitHub feature branch](screenshots/feature-branch.png)
+
+![Git commit evidence 1](screenshots/COMIT1.png)
+
+![Git commit evidence 2](screenshots/COMIT02.png)
+
+![Git commit evidence 3](screenshots/COMIT03.png)
+
+![GitHub Pull Request](screenshots/PULL-REQUEST.png)
 
 ## 12. Reflection and Lessons Learnt
 
