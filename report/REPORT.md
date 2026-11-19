@@ -7,7 +7,7 @@
 - **Programme:** BSc. Computer Technology
 - **GitHub Username:** kyalokennedy142-del
 - **Assigned Scenario:** Room A and Room B workstation calculation
-- **Variant ID:** ENB211-0029/2025
+- **Variant ID:** V21
 - **Date:** 16 November 2026
 
 ## 2. Objectives
