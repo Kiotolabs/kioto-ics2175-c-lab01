@@ -2,8 +2,8 @@
  * ICS 2175 - Introduction to Computer Programming
  * Laboratory 01 - Exercise 01: Hello Kioto
  *
- * Student Name: TODO
- * Registration Number: TODO
+ * Student Name: Reye Alfred Kegode
+ * Registration Number: ENB 211-0030/2025
  *
  * Instructions:
  *   - Include stdio.h.
@@ -17,9 +17,8 @@
 
 int main(void)
 {
-    /* TODO: Print "Hello, Kioto!" */
-    /* TODO: Print a second line introducing your programme or course */
-    /* TODO: Return 0 */
+    printf ("Hello, Kioto!\n")
+    printf("And this is Agricultural and Biosystems Engineering.")
 
     return 0;
 }

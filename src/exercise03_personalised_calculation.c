@@ -2,11 +2,10 @@
  * ICS 2175 - Introduction to Computer Programming
  * Laboratory 01 - Exercise 03: Personalised Calculation
  *
- * Student Name: TODO
- * Registration Number: TODO
+ * Student Name: Reye Alfred Kegode
+ * Registration Number: ENB 211-0030/2025
  * Variant ID: TODO   (assigned by your lecturer, e.g. V07)
- * Scenario: TODO     (assigned by your lecturer)
- *
+ * Scenario: A water tank team estimates the volume of a rectangular tank.
  * Instructions:
  *   - Record your assigned variant details above.
  *   - Use the two input values given for your variant.
@@ -19,10 +18,13 @@
 
 int main(void)
 {
-    /* TODO: Declare input variables with your assigned values */
-    /* TODO: Declare a result variable */
-    /* TODO: Perform the required arithmetic operation */
-    /* TODO: Print the result using the required output label */
+    int tankLength = 12;
+    int tankWidth = 2;
+    int baseArea= tankLength * tankWidth;
+
+    printf("Tank length: %d\n", tankLength);
+    printf("Tank width: %d\n", tankWidth);
+    printf("Base area: %d\n", baseArea);
 
     return 0;
 }
