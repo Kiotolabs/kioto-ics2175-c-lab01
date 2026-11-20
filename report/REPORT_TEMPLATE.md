@@ -6,8 +6,8 @@
 - **Registration Number:** ENB211-0025/2024
 - **Programme:** B.Sc Agricultural And Biosystems Engineering
 - **GitHub Username:** kyalo-png
-- **Assigned Scenario:** 
-- **Variant ID:** None
+- **Assigned Scenario:** Event ticket revenue
+- **Variant ID:** V05
 - **Date:** 18/11/2026
 
 ## 2. Objectives
@@ -89,38 +89,55 @@ char (grade_category = 'A', specifier %c): Stores a single character enclosed in
 
 ## 8. Personalised Calculation
 
-Variant ID: None 
+Variant ID: V05
 
-Assigned Scenario: A campus printing desk estimates the cost of printed pages.
+Assigned Scenario: Event ticket revenue
 
 Input Values:
 
-pages_printed = 105 (pages)
+input_a = 250
 
-cost_per_page = 3.5f (cost per page)
+input_b = 120
 
-Operation: Multiplication of pages printed by cost per page (estimated_printing_cost = pages_printed * cost_per_page;)
+Operation: Multiplication (total_revenue = input_a*input_b;)
 
-Result: 367.50 (Estimated printing cost: 367.50)
+Result: 30000 ( Total revenue: 30000)
 
 Here is the code:
+
+/*
+ * ICS 2175 - Introduction to Computer Programming
+ * Laboratory 01 - Exercise 03: Personalised Calculation
+ *
+ * Student Name: Daniel Kyalo
+ * Registration Number: ENB211-0025/2024
+ * Variant ID: V05
+ * Scenario: Event ticket revenue
+ *
+ * Instructions:
+ *   - Record your assigned variant details above.
+ *   - Use the two input values given for your variant.
+ *   - Perform the required arithmetic operation.
+ *   - Store the result in a meaningfully named variable.
+ *   - Print the result using the required output label.
+ */
 
 #include <stdio.h>
 
 int main(void)
 {
-    int pages_printed = 105;
-    float cost_per_page = 3.5f;
-    float estimated_printing_cost = pages_printed * cost_per_page;
+    int input_a = 250;
+    int input_b = 120;
+    int total_revenue = input_a * input_b;
 
-    printf("Estimated printing cost: %.2f\n", estimated_printing_cost);
+    printf("Total revenue: %d\n", total_revenue);
 
     return 0;
 }
 
 Output:
 
-Estimated printing cost: 367.50
+Total revenue: 30000
 
 ## 9. Testing and Troubleshooting
 
