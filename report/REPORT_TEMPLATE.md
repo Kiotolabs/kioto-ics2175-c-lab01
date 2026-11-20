@@ -141,9 +141,4 @@ Next time: I will compile and test my code incrementally after writing small blo
 
 ## 13. Conclusion
 
-What I learned: I learned how to declare appropriate C data types (int vs. float), perform basic arithmetic operations, control decimal output using printf format specifiers (%.2f), and manage code versions using Git branches and pull requests.
-  
-What was difficult: Getting used to strict C syntax rules—such as remembering semicolons at the end of every statement and matching the exact format specifiers (%d for integers and %f for floats) with their corresponding variables.
-  
-Next time: I will compile and test my code incrementally after writing small blocks rather than waiting until the entire file is written, which will make catching formatting or syntax errors much faster.
-In this practical,I successfully applieD the fundamentals of C programming including program structure, header files (<stdio.h>), variable declaration, arithmetic expressions, and formatted console output to solve personalized computational tasks.Additionally,I properly tracked, tested, and integrating a structured GitHub workflow ensured that all source code and documentation and submitted.
+In this practical,I successfully applied the fundamentals of C programming including program structure, header files (<stdio.h>), variable declaration, arithmetic expressions, and formatted console output to solve personalized computational tasks.Additionally,I properly tracked, tested, and integrating a structured GitHub workflow ensured that all source code and documentation and submitted.
