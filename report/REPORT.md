@@ -6,7 +6,7 @@
 - **Registration Number:** ENB211-0018/2025[cite: 2, 4]
 - **Programme:** B.Sc.in Agricultural and Biosystems Engineering
 - **GitHub Username:** njoguvictor91-a11y
-- **Assigned Scenario:** Campus stationery desk calculating the total cost of an order.
+- **Assigned Scenario:** Study hours
 - **Variant ID:** V20
 - **Date:** 17 November 2026
 
