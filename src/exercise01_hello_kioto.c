@@ -2,8 +2,8 @@
  * ICS 2175 - Introduction to Computer Programming
  * Laboratory 01 - Exercise 01: Hello Kioto
  *
- * Student Name: TODO
- * Registration Number: TODO
+ * Student Name: HAGREAVES ODHIAMBO
+ * Registration Number: ENB211-0061/2025
  *
  * Instructions:
  *   - Include stdio.h.
