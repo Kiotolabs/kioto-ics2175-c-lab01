@@ -114,7 +114,7 @@ Distance to travelled (Km): 216.00
  * Scenario: Total computer workstations
  * Input values: 20 and 6
  * Operation: multiply
- * Required output label: Toatal workstations
+ * Required output label: Total workstations
 
  I obtained my variant by running the repository's ,.'tools/variant_lookup.py' script with my registration number (ENB211-0011/2025).
 
