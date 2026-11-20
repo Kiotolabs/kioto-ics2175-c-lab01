@@ -4,8 +4,8 @@
  *
  * Student Name: Victor njogu
  * Registration Number: ENB211-0018/2025
- * Variant ID: TODO   (ENB211-0018/2025)
- * Scenario: TODO     (Campus stationery desk order total calculation)
+ * Variant ID: V20
+ * Scenario: Study hours
  *
  * Instructions:
  *   - Record your assigned variant details above.
@@ -19,21 +19,21 @@
 
 int main(void)
 {
-    /* Declare input variables with your assigned values */
-    int numberOfNotebooks = 4;
-    double pricePerNotebook = 125.5;
+    /* Declare input variables with your assigned V20 values */
+    int dailyStudyHours = 2;
+    int numberOfDays = 14;
 
     /* Declare a result variable */
-    double orderTotal;
+    int totalStudyHours;
 
     /* Perform the required arithmetic operation */
-    orderTotal = numberOfNotebooks * pricePerNotebook;
+    totalStudyHours = dailyStudyHours * numberOfDays;
 
     /* Print the result using the required output label */
-    printf("Number of notebooks: %d\n", numberOfNotebooks);
-    printf("Price per notebook: %.2f\n", pricePerNotebook);
-    printf("Operation: %d x %.2f\n", numberOfNotebooks, pricePerNotebook);
-    printf("Order total: %.2f\n", orderTotal);
+    printf("Daily study hours: %d\n", dailyStudyHours);
+    printf("Number of days: %d\n", numberOfDays);
+    printf("Operation: %d x %d\n", dailyStudyHours, numberOfDays);
+    printf("Total study hours: %d\n", totalStudyHours);
 
     return 0;
 }
