@@ -8,11 +8,15 @@
 - **Registration Number:** ENB211-0026/2025
 - **Programme:** Agricultural and Biosystems Engineering
 - **GitHub Username:** patoh104
-- **Assigned Scenario:** Rectangular farm demonstration plot area calculation
-- **Variant ID:** ENB211-0026/2025
-- **Submission Date:** 18 November 2026
+- **Assigned Scenario:** Stationery order cost calculation
+- **Variant ID:** V02
+- **Input Value 1:** 15 notebooks
+- **Input Value 2:** KSh 12 per notebook
+- **Operation:** Multiplication
+- **Expected Total Cost:** KSh 180
+- **Submission Date:** 20 November 2026
 
-## 2. Objectives
+# 2. Objectives
 
 The main objectives of this laboratory were:
 
@@ -180,32 +184,33 @@ Plot grade: A
 
 The Exercise 2 execution evidence is included as `05-exercise02-output.png`.
 
-## 8. Personalised Calculation – Exercise 3
+# 8. Personalised Calculation – Exercise 3
 
-The personalised calculation involved determining the area of a rectangular farm demonstration plot.
+The personalised calculation involved determining the total cost of purchasing notebooks. The assigned variant was V02, which required multiplying the number of notebooks by the cost per notebook.
 
 ### Given Information
 
-- Length = 24 metres
-- Width = 13 metres
-- Plot category = A
+- Number of notebooks = 15
+- Cost per notebook = KSh 12
+- Variant ID = V02
+- Operation = Multiplication
 
 ### Formula
 
-Area of a rectangle:
-
+Total cost:
+ 
 \[
-A = L \times W
+\text{Total Cost} = \text{Number of Notebooks} \times \text{Cost per Notebook}
 \]
 
 ### Calculation
 
 \[
-A = 24 \times 13
+\text{Total Cost} = 15 \times 12
 \]
 
 \[
-A = 312\ m^2
+\boxed{\text{Total Cost} = \text{KSh }180}
 \]
 
 ### C Source Code
@@ -215,39 +220,20 @@ A = 312\ m^2
 
 int main(void)
 {
-    float plotLength = 24.0;
-    float plotWidth = 13.0;
-    float plotArea;
-    char plotCategory = 'A';
+    int notebooks = 15;
+    int costPerNotebook = 12;
+    int totalCost;
 
-    plotArea = plotLength * plotWidth;
+    totalCost = notebooks * costPerNotebook;
 
-    printf("Farm Plot Area Calculation\n");
-    printf("---------------------------\n");
-    printf("Plot category: %c\n", plotCategory);
-    printf("Plot length: %.2f metres\n", plotLength);
-    printf("Plot width: %.2f metres\n", plotWidth);
-    printf("Plot area: %.2f square metres\n", plotArea);
+    printf("Stationery Order Cost Calculation\n");
+    printf("---------------------------------\n");
+    printf("Number of notebooks: %d\n", notebooks);
+    printf("Cost per notebook: %d\n", costPerNotebook);
+    printf("Total cost: %d\n", totalCost);
 
     return 0;
 }
-```
-
-### Output
-
-```text
-Farm Plot Area Calculation
----------------------------
-Plot category: A
-Plot length: 24.00 metres
-Plot width: 13.00 metres
-Plot area: 312.00 square metres
-```
-
-The calculated area was **312.00 square metres**. This demonstrates how C programming can be applied to a practical agricultural calculation.
-
-The Exercise 3 output evidence is included as `06-exercise03-output.png`. If the screenshot was produced using an online compiler, it should be labelled as online compiler output rather than local Code::Blocks execution.
-
 ## 9. Testing and Troubleshooting
 
 The laboratory programs were prepared and tested using the GCC compiler and the available execution environments. The evidence screenshots for the three exercises are included in the report screenshots folder.
