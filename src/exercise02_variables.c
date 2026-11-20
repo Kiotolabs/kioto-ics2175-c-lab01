@@ -27,3 +27,6 @@ int main(void)
 
    return 0;
 }
+
+Picture Ipt.png
+Picture Otp.png
