@@ -30,3 +30,6 @@ int main(void)
 
     return 0;
 }
+Picture 8Ax.png
+Picture8Ay.png
+Picture8Az.png
