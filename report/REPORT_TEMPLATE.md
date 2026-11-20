@@ -6,8 +6,8 @@
 - **Registration Number:** ENB211-0011/2025
 - **Programme:** Bsc in Agricultural and Biosystems Engineering
 - **GitHub Username:** mukamimuriuki-ui
-- **Assigned Scenario:** TODO
-- **Variant ID:** V18
+- **Assigned Scenario:** Total Computer Workstations
+- **Variant ID:** V15
 - **Date:** 18-11-2026
 
 ## 2. Objectives
@@ -29,6 +29,9 @@ I opened the official Code::Blocks download page (codeblocks.org/downloads/binar
 To create my first project, I chose File -- New -- Project -- Console application -- C, named it Kioto_C_Lab01, selected GNU GCC, and opened main.c under Sources.
 I did not have any set-up issue.
 
+![alt text](<../screenshots/Picture 1.png>)
+![alt text](<../screenshots/Picture 2.jpg>)
+
 
 ## 5. Hello Kioto Implementation
 
@@ -42,6 +45,9 @@ int main(void)
     return 0;
 }
 I typed the program into exercise01_hello_kioto.c, saved it, built it (Ctrl+F9) and ran it (Ctrl+F10). The build reported no errors and the console showed both lines. I completed the author details at the top of the file.
+
+![alt text](<../screenshots/Picture 3.jpg>)
+![alt text](<../screenshots/Picture 4.png>)
 
 ## 6. Explanation of C Program Structure
 
@@ -57,47 +63,84 @@ Semicolon: When a semicolon was missing, the build failed with error: expected '
 Missing \n: Instead of getting two separate lines, the output became one line of joined words.
 
 ## 7. Variables and Data Types
-Variable|  Type| Value| Specifier| Why this type
-numberOfCourses| int| 6| %d| Whole number
-averageMark| float| 68.5| %.1f| Decimal value
-distanceToCampusKm| double| 3.75| %.2f| Decimal with greater precision
-section| char| 'B'| %c| Single character 
-I printed each valuable with a label.The specifier had to match the data type and .1 or .2 sets the number of decimal places shown.
 
-
-## 8. Personalised Calculation
-
-
-Calculating the total distance travelled by an oblect moving at a constant average speed over a given period of time 
 /*
  * ICS 2175 - Introduction to Computer Programming
  * Laboratory 01 - Exercise 02: Variables and Data Types
- * Variant ID: V18
+ *
  * Student Name: MURIUKI RISPER MUKAMI
  * Registration Number: ENB211-0011/2025
- 
-   Instructions:
-  - Declare and initialise one int, one float, one double and one char.
-  - Use meaningful variable names.
-  - Display each value with the correct printf format specifier.
+ *
+ * Instructions:
+ *   - Declare and initialise one int, one float, one double and one char.
+ *   - Use meaningful variable names.
+ *   - Display each value with the correct printf format specifier.
+ */
+
+#include <stdio.h>
+
+int main(void)
+{
+    int averageSpeed = 144;
+    float timeHours = 1.5f;
+    float distanceTravelled = averageSpeed * timeHours;
+
+    printf("Average speed (Km/h): %d\n", averageSpeed);
+    printf("Time (hours): %.1f\n", timeHours);
+    printf("operation: speed * time\n");
+    printf("Distance travelled: %.2f Km\n", distanceTravelled);
+
+    return 0;
+}
+
+Variable|  Type| Value| Specifier| Why this type
+numberOfCourses| int| 6| %d| Whole number
+averageMark| float| 68.5| %.1f| Decimal value
+distanceToCampusKm| 288 | %.2f| Decimal with greater precision
+section| char| 'A'| %c| Single character 
+I printed each valuable with a label.The specifier had to match the data type and .1 or .2 sets the number of decimal places shown.
+
+** Output:**
+Average speed (Km/h): 144
+Time (hours): 1.5
+Distance to travelled (Km): 216.00
+
+![alt text](<../screenshots/Picture  7A.png>)
+![alt text](<../screenshots/Picture 7B.png>)
+
+## 8. Personalised Calculation
+
+ * Variant ID: V15
+ * Scenario: Total computer workstations
+ * Input values: 20 and 6
+ * Operation: multiply
+ * Required output label: Toatal workstations
+
+ I obtained my variant by running the repository's ,.'tools/variant_lookup.py' script with my registration number (ENB211-0011/2025).
+
+![alt text](../screenshots/Picture8B.png)
 
 
 #include <stdio.h>
 
 int main(void)
 {
-   int numberOfCourses = 6;
-   float averageMark = 68.5f;
-   double distanceToCampusKm = 3.75;
-   char section = 'B';
+   int workstationsPerLab = 20;
+   int numberOfLabs = 6;
+   int totalWorkstations = workstationsPerLab * numberOfLabs;
 
-   printf("Number of courses: %d\n", numberOfCourses);
-   printf("Average mark: %.1f\n", averageMark);
-   printf("Distance to campus (Km): %.2f\n", distanceToCampusKm);
-   printf("section: %c\n", section);
+   printf("Workstations per lab: %d\n", workstationsPerLab);
+   printf("Number of labs: %d\n", numberOfLabs);
+   printf("Operation: multipy\n");
+   printf("Total workstations : %d\n", totalWorkstations);
 
-   return 0;
+    return 0;
 }
+
+I changed the number of labs from 6 to 7 and the program printed 140, which matches 20 * 7 = 140. I then restored the original value.
+![alt text](<../screenshots/Picture 8A.png>)
+![alt text](<../screenshots/Picture 8A1.png>)
+
 
 
 ## 9. Testing and Troubleshooting
@@ -121,15 +164,32 @@ Mixed Data Type Arithmetic: Multiplying an int (averageSpeed) by a float (timeHo
 3. Staging & Committing: Added the completed C files and report updates using git add . and committed them with clear messages (e.g., git commit -m "Complete Exercise 03 personalised calculation V18").
   
 4. Pushing & Pull Request: Pushed the branch to my remote fork (git push origin feature/lab01-solutions) and opened a Pull Request against the upstream repository.
-Repository / PR Link: [Paste your GitHub Pull Request URL here]
+**Fork URL: https://github.com/mukamimuriuki-ui/kioto-ics21755-c-lab01
+**Branch name: student/ENB211-0011-2025/lab01
+**Pull request URL: https://github.com/Kiotolabs/kioto-ics2175-c-lab01/pull/18
+
 
 ## 11. Screenshots
 
-![Code::Blocks Installation and Configuration](<../screenshots/Picture 1.png>) and ![alt text](<../screenshots/Picture 2.jpg>)
-![Hello Kioto Implementation](<../screenshots/Picture 3.jpg>) and ![alt text](<../screenshots/Picture 4.png>)
-![Contolled Experiment](<../screenshots/Picture 5.png>) and ![alt text](<../screenshots/Picture 6.jpg>)
-![Variables and Data Types](<../screenshots/Picture 7.png>) , ![alt text](<../screenshots/Picture 8.png>) and ![alt text](<../screenshots/Picture 9.png>) and ![alt text](<../screenshots/Picture 10.png>)
-![Personalised Calculations](<../screenshots/Picture 11.png>) and ![alt text](<../screenshots/Picture 12.png>)
+Code::Blocks Installation and Configuration
+![alt text](<../screenshots/Picture 1.png>)
+![alt text](<../screenshots/Picture 2.jpg>)
+**Hello Kioto Implementation**
+![alt text](<../screenshots/Picture 3.jpg>)
+![alt text](<../screenshots/Picture 4.png>)
+**Contolled Experiment**
+![alt text](<../screenshots/Picture 5.png>)
+![alt text](<../screenshots/Picture 6.jpg>)
+**Variables and Data Types** 
+![alt text](<../screenshots/Picture  7A.png>)
+![alt text](<../screenshots/Picture 7B.png>)
+![alt text](<../screenshots/Picture 12A.png>)
+![alt text](<../screenshots/Picture 12B.png>)
+**Personalised Calculations**
+![alt text](<../screenshots/Picture 8A.png>)
+![alt text](<../screenshots/Picture 8A1.png>)
+![alt text](../screenshots/Picture8B.png)
+
 
 ## 12. Individual Reflection
 
