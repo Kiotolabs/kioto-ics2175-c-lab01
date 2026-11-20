@@ -138,10 +138,10 @@ int main(void)
 }
 
 I changed the number of labs from 6 to 7 and the program printed 140, which matches 20 * 7 = 140. I then restored the original value.
-![alt text](<../screenshots/Picture 8A.png>)
-![alt text](<../screenshots/Picture 8A1.png>)
 
-
+![alt text](<../screenshots/Picture 8Ax.png>)
+![alt text](../screenshots/Picture8Ay.png)
+![alt text](../screenshots/Picture8Az.png)
 
 ## 9. Testing and Troubleshooting
 
