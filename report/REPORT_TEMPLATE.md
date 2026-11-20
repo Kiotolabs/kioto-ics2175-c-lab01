@@ -77,22 +77,42 @@ char itemCategory = 'S'; — Declared as char to store a single ASCII category c
 
 ## 8. Personalised Calculation
 
-Variant ID: ENB211-0018/2025Assigned Scenario: A campus stationery desk calculates the total cost of an order.Input Values & Formula:numberOfNotebooks = 4pricePerNotebook = 125.5Operation: $\text{Quantity} \times \text{Unit Price}$Output label: Order total
-Result & Independent Verification: Multiplying $4 \times 125.5$ yields $502.00$ ($(4 \times 125) + (4 \times 0.5) = 500 + 2 = 502.00$), matching the program's displayed output (Order total: 502.00).
+- **Variant ID:** V20
+- **Assigned Scenario:** Study hours
+- **Input Values:** `dailyStudyHours = 2`, `numberOfDays = 14`
+- **Operation & Formula:** Multiply ($\text{Daily study hours} \times \text{Number of days}$)
+- **Required Output Label:** Total study hours
+- **Result & Independent Verification:** Multiplying $2 \times 14$ yields $28$ (`Total study hours: 28`), matching the expected result for variant `V20`.
+
+/*
+ * ICS 2175 - Introduction to Computer Programming
+ * Laboratory 01 - Exercise 03: Personalised Calculation
+ *
+ * Student Name: Victor njogu
+ * Registration Number: ENB211-0018/2025
+ * Variant ID: V20
+ * Scenario: Study hours
+ */
+
 #include <stdio.h>
 
 int main(void)
 {
-    int numberOfNotebooks = 4;
-    double pricePerNotebook = 125.5;
-    double orderTotal;
+    /* Declare input variables with your assigned V20 values */
+    int dailyStudyHours = 2;
+    int numberOfDays = 14;
 
-    orderTotal = numberOfNotebooks * pricePerNotebook;
+    /* Declare a result variable */
+    int totalStudyHours;
 
-    printf("Number of notebooks: %d\n", numberOfNotebooks);
-    printf("Price per notebook: %.2f\n", pricePerNotebook);
-    printf("Operation: %d x %.2f\n", numberOfNotebooks, pricePerNotebook);
-    printf("Order total: %.2f\n", orderTotal);
+    /* Perform the required arithmetic operation */
+    totalStudyHours = dailyStudyHours * numberOfDays;
+
+    /* Print the result using the required output label */
+    printf("Daily study hours: %d\n", dailyStudyHours);
+    printf("Number of days: %d\n", numberOfDays);
+    printf("Operation: %d x %d\n", dailyStudyHours, numberOfDays);
+    printf("Total study hours: %d\n", totalStudyHours);
 
     return 0;
 }
