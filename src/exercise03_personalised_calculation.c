@@ -4,8 +4,8 @@
  *
  * Student Name: MURIUKI RISPER MUKAMI
  * Registration Number: ENB211-0011/2025
- * Variant ID: V18
- * Scenario: Distance travelled = speed * time
+ * Variant ID: V15
+ * Scenario: Total computer workstations
  *
  * Instructions:
  *   - Record your assigned variant details above.
@@ -19,14 +19,14 @@
 
 int main(void)
 {
-    int averageSpeed = 144;
-    float timeHours = 1.5f;
-    float distanceTravelled = averageSpeed * timeHours;
+    int workstationPerLab = 20;
+    int numberOfLabs = 6;
+    int totalWorstations = workstationPerLab * numberOfLabs;
 
-    printf("Average speed (Km/h): %d\n", averageSpeed);
-    printf("Time (hours): %.1f\n", timeHours);
-    printf("operation: speed * time\n");
-    printf("Distance travelled: %.2f Km\n", distanceTravelled);
+    printf("Workstations per lab: %d\n", workstationPerLab);
+    printf("Number of labs: %d\n", numberOfLabs);
+    printf("Operation: multiply\n");
+    printf("Total workstations: %d\n", totalWorstations);
 
     return 0;
 }
