@@ -3,9 +3,9 @@
  * Laboratory 01 - Exercise 03: Personalised Calculation
  *
  * Student Name: Daniel Kyalo
- * Registration Number: ENB211-0025/2025
- * Variant ID: None
- * Scenario: A campus printing desk estimates the cost of printed pages.
+ * Registration Number: ENB211-0025/2024
+ * Variant ID: V05
+ * Scenario: Event ticket revenue
  *
  * Instructions:
  *   - Record your assigned variant details above.
@@ -19,13 +19,11 @@
 
 int main(void)
 {
-    int pages printed = 105;
-    float cost per page = 3.5f;
-    char category = 'A';
+    int input_a = 250;
+    int input_b = 120;
+    int total_revenue = input_a * input_b;
 
-    float Printing cost = pages * cost per page;
-    char category = 'B';
-    printf("I pray 2 times a day!\n");
+    printf("Total revenue: %d\n", total_revenue);
 
     return 0;
 }
