@@ -17,11 +17,8 @@
 
 int main(void)
 {
-    /* TODO: Print "Hello, Kioto!" */
     printf("Hello, Kioto!\n");
-    /* TODO: Print a second line introducing your programme or course */
     printf("I am a student of BSc. Agricultural and Biosystems Engineering at JKUAT.\n");
-    /* TODO: Return 0 */
 
     return 0;
 }
