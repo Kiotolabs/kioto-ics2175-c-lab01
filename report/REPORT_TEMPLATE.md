@@ -54,7 +54,7 @@ return 0; ends the program and conventionally reports success.
 ; ends each statement.
 Controlled experiments:
 Semicolon: When a semicolon was missing, the build failed with error: expected ';' before 'printf', and the program did not run. The compiler needs the semicolon to know where one statement ends. Text inside quotation marks is only data to display, so changing it doesn't affect compilation.
-Missing \n: Instead of getting two separate lines, the output becomes one line of joined words.
+Missing \n: Instead of getting two separate lines, the output became one line of joined words.
 
 ## 7. Variables and Data Types
 Variable|  Type| Value| Specifier| Why this type
@@ -146,3 +146,4 @@ What I learned: I learned how to declare appropriate C data types (int vs. float
 What was difficult: Getting used to strict C syntax rules—such as remembering semicolons at the end of every statement and matching the exact format specifiers (%d for integers and %f for floats) with their corresponding variables.
   
 Next time: I will compile and test my code incrementally after writing small blocks rather than waiting until the entire file is written, which will make catching formatting or syntax errors much faster.
+In this practical,I successfully applieD the fundamentals of C programming including program structure, header files (<stdio.h>), variable declaration, arithmetic expressions, and formatted console output to solve personalized computational tasks.Additionally,I properly tracked, tested, and integrating a structured GitHub workflow ensured that all source code and documentation and submitted.
