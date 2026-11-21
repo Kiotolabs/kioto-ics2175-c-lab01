@@ -12,8 +12,9 @@
 - **Registration Number:** ENB211-0122/2025
 - **Programme:** Agricultural and Biosystems Engineering (ABE)
 - **GitHub Username:** ruthowiti19-netizen
-- **Assigned Scenario:** Rectangular demonstration farm plot
-- **Variant ID:** ENB211-0122/2025
+- **Assigned Scenario:** Event ticket revenue
+
+- **Variant ID:** V05
 - **Date:** 17 November 2026
 
 ---
@@ -171,29 +172,41 @@ The exercise demonstrated how different data types are used to store and display
 
 ---
 
+
+
 ### 8. Personalised Calculation
 
-The third exercise involved performing a calculation based on an assigned agricultural scenario.
 
-The assigned scenario was a small farm recording the area of a rectangular demonstration plot.
+The third exercise involved performing a calculation based on my assigned personalised scenario.
+
+
+
+My assigned variant was **V05**, which involved calculating the total revenue generated from selling event tickets.
 
 The given values were:
 
-- Plot length = 72 metres
-- Plot width = 13 metres
-- Required operation = Length × Width
+- Ticket price = 250
+- Number of tickets sold = 120
 
-The area of a rectangle is calculated using:
 
-**Area = Length × Width**
+- Required operation = Multiplication
+
+
+The total revenue was calculated using:
+
+
+**Total Revenue = Ticket Price × Number of Tickets**
 
 Substituting the given values:
 
-**Area = 72 × 13**
 
-**Area = 936 square metres.**
 
-The program used three float variables to store the length, width and calculated area. A char variable was also included to represent the plot category.
+
+**Total Revenue = 250 × 120**
+
+**Total Revenue = 30,000.**
+
+The program used a float variable to store the ticket price, an integer variable to store the number of tickets, and another float variable to store the calculated revenue.
 
 The source code was:
 
@@ -202,18 +215,13 @@ The source code was:
 
 int main(void)
 {
-    float length = 72;
-    float width = 13;
+    float ticketPrice = 250;
+    int numberOfTickets = 120;
+    float totalRevenue = ticketPrice * numberOfTickets;
 
-    /* Calculate the area by multiplying length by width. */
-    float area = length * width;
-
-    char category = 'A';
-
-    printf("Plot length: %.2f m\n", length);
-    printf("Plot width: %.2f m\n", width);
-    printf("Plot category: %c\n", category);
-    printf("Plot area: %.2f square metres\n", area);
+    printf("Ticket price: %.2f\n", ticketPrice);
+    printf("Number of tickets: %d\n", numberOfTickets);
+    printf("Total revenue: %.2f\n", totalRevenue);
 
     return 0;
 }
@@ -222,25 +230,26 @@ int main(void)
 The program output was:
 
 ```text
-Plot length: 72.00 m
-Plot width: 13.00 m
-Plot category: A
-Plot area: 936.00 square metres
+Ticket price: 250.00
+Number of tickets: 120
+Total revenue: 30000.00
 ```
 
 The result was independently verified through manual multiplication.
 
-The input length was also changed from 72 metres to 80 metres to test whether the program would calculate a different result.
+
+An additional test was performed by changing the number of tickets from 120 to 100 while keeping the ticket price constant.
 
 The new calculation was:
 
-**80 × 13 = 1040 square metres.**
+
+**250 × 100 = 25,000.**
 
 This demonstrated that changing an input value affects the calculated output.
 
 **Evidence:** Screenshot 06 – Exercise 3 output.
 
----
+
 
 ### 9. Testing and Troubleshooting
 
