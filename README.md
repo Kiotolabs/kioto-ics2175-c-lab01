@@ -119,3 +119,7 @@ Use the Kioto iLMs platform for submission of your lab report where required.
 ## License
 
 This repository is provided for educational use. See [LICENSE](LICENSE).
+
+Name: Phaizard
+Registration Number: ENB211-0060/2025
+Laboratory 01 Submission
