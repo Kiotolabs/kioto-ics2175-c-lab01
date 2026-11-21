@@ -46,3 +46,6 @@ Reference images using standard Markdown image syntax with the path to your scre
 - Write in your own words.
 - Explain what you learned, not only what you did.
 - A report that is clearly copied from another student will be rejected.
+
+
+END OF REPORT
