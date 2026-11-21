@@ -2,27 +2,29 @@
  * ICS 2175 - Introduction to Computer Programming
  * Laboratory 01 - Exercise 03: Personalised Calculation
  *
- * Student Name: TODO
- * Registration Number: TODO
- * Variant ID: TODO   (assigned by your lecturer, e.g. V07)
- * Scenario: TODO     (assigned by your lecturer)
+ * Student Name: VICTOR LEKEN
+ * Registration Number: ENB211-0037\2025
+ * Variant ID: V16
+ * Scenario: Distance travelled
  *
- * Instructions:
- *   - Record your assigned variant details above.
- *   - Use the two input values given for your variant.
- *   - Perform the required arithmetic operation.
- *   - Store the result in a meaningfully named variable.
- *   - Print the result using the required output label.
+ * Inputs: 60 and 2.5
+ * Operation: Multiplication
+ * Output label: Distance
  */
 
 #include <stdio.h>
 
 int main(void)
 {
-    /* TODO: Declare input variables with your assigned values */
-    /* TODO: Declare a result variable */
-    /* TODO: Perform the required arithmetic operation */
-    /* TODO: Print the result using the required output label */
+    double distancePerTrip = 60;
+    double numberOfTrips = 2.5;
+    double totalDistance;
+    char category = 'D';
+
+    totalDistance = distancePerTrip * numberOfTrips;
+
+    printf("Distance: %.2f\n", totalDistance);
+    printf("Category: %c\n", category);
 
     return 0;
 }
