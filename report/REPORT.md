@@ -7,7 +7,7 @@
 - **Programme:** Agricultural Biosystems Engineering
 - **GitHub Username:** shekinahfavour30-hub
 - **Assigned Scenario:** Computer lab workstations in two rooms
-- **Variant ID:** Not shown
+- **Variant ID:** V23
 - **Date:** 17/11/2026
 
 ## 2. Objectives
@@ -39,8 +39,7 @@ Next I created my project using File, New, Project, Console application, and cho
 ## 5. Hello Kioto Implementation
 For Exercise 1, I wrote my first C program in the file exercise01_hello_kioto.c. The program prints a greeting to the screen and then a short message introducing myself.
 
-c
-()
+
 
 
 The program uses two printf statements. The first one prints the "Hello Kioto" greeting and the second one prints a message about me. Each message ends with \n so the next line starts on a new line. The return 0; at the end shows the program finished without errors.
@@ -66,7 +65,7 @@ I displayed each value with printf using the format specifier that matches its t
 
 ## 8. Personalised Calculation
 
-My assigned scenario was computer lab workstations in two rooms. Room A has 56 workstations and room B has 22. The operation was room A plus room B. I stored the numbers in workstationsRoomA and workstationsRoomB, and the answer in totalWorkstations, all as int because workstations are whole numbers. The program printed 56, 22, the operation and the total of 78. I checked it by adding 56 + 22 by hand and got the same answer. My variant ID was not shown.
+My assigned scenario was computer lab workstations in two rooms. Room A has 56 workstations and room B has 22. The operation was room A plus room B. I stored the numbers in workstationsRoomA and workstationsRoomB, and the answer in totalWorkstations, all as int because workstations are whole numbers. The program printed 56, 22, the operation and the total of 78. I checked it by adding 56 + 22 by hand and got the same answer. My variant ID was V23.
 
 ## 9. Testing and Troubleshooting
 
@@ -78,7 +77,7 @@ For the submission, I used Git and GitHub through GitHub Desktop. First, I forke
 
 I completed the three exercises in the src folder and saved my progress in three commits: "Complete hello world exercise", "Implement variables and data types" and "Complete personalised calculation". A commit saves a snapshot of my work with a message, so I can see what I changed and go back if something breaks. After committing, I pushed the branch to my fork using Push origin.
 
-Finally, I opened a pull request from my branch to the main branch of Kiotolabs/kioto-ics2175-c-lab01. The pull request asks the lecturer to review my changes. I did not merge or close it. My pull request is here:https://github.com/Kiotolabs/kioto-ics2175-c-lab01/pull/5 . When I submitted, GitHub showed that there were no conflicts with the base branch, and the automated check was waiting for the lecturer's approval, which GitHub requires for first-time contributors
+Finally, I opened a pull request from my branch to the main branch of Kiotolabs/kioto-ics2175-c-lab01. The pull request asks the lecturer to review my changes. I did not merge or close it. My pull request is here:https://github.com/Kiotolabs/kioto-ics2175-c-lab01/pull/5/changes . When I submitted, GitHub showed that there were no conflicts with the base branch, and the automated check was waiting for the lecturer's approval, which GitHub requires for first-time contributors
 
 ## 11. Screenshots
 
@@ -108,7 +107,7 @@ Finally, I opened a pull request from my branch to the main branch of Kiotolabs/
 
 In this laboratory I learned how a C program is built and run. I now understand the parts of a program: #include <stdio.h>, the main() function, statements ending with semicolons, and return 0;. I also learned how to declare variables with suitable data types such as int, float, double and char, and that the format specifier in printf must match the type of the variable. Besides that, I learned the GitHub workflow of forking, branching, committing, pushing and opening a pull request.
 
-The most difficult part was the Git and GitHub submission. Terms like fork, branch and pull request were confusing at first, and I was not sure of the order of the steps. I also made a mistake of forgetting a semicolon, which stopped my program from building until I read the error message and fixed it.
+The most difficult part was the Git and GitHub submission. Terms like fork, branch and pull request were confusing at first, and I was not sure of the order of the steps. I also made a mistake of forgetting a semicolon, which stopped my program from building until I read the error message and fixed it.The first automated check failed because report/REPORT.md had not been added yet. I added it in my fourth commit, and the new check is awaiting approval from the lecturer.
 
 Next time, I will read all the instructions before I start, check my code for missing semicolons before building, and commit my work after finishing each exercise. I will also write my report as I go along and take my screenshots at each step, so I do not have to go back and repeat them.
 
