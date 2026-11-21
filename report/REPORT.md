@@ -7,7 +7,7 @@
 - **Programme:** BSc. Agricultural and Biosystems Engineering
 - **GitHub Username:** muleepeter04-ops
 - **Assigned Scenario:** Event ticket revenue
-- **Variant ID:** V05
+- **Variant ID:** V18
 - **Date:** 18 November 2025 
 
 ## 2. Objectives
@@ -76,7 +76,7 @@ The assigned scenario involves calculating the total revenue generated from sell
 ```c
 /*
  * Registration Number: ENB211-0028/2025
- * Variant ID: V05
+ * Variant ID: V18
  * Scenario: Event ticket revenue
  */
 ```

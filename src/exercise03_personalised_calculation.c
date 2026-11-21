@@ -4,7 +4,7 @@
  *
  * Student Name: Peter Mwai
  * Registration Number: ENB211-0028/2025
- * Variant ID: V05   (assigned by your lecturer, e.g. V07)
+ * Variant ID: V 18  (assigned by your lecturer, e.g. V07)
  * Scenario: Event ticket revenue     (assigned by your lecturer)
  *
  * Instructions:
