@@ -5,13 +5,6 @@
  * Student Name:SHARON MUCHIRI
  * Registration Number: ENB211-0016/2024
  *
- * Instructions:
- *   - Include stdio.h.
- *   - Implement main().
- *   - Print "Hello, Kioto!".
- *   - Print a second line introducing your programme or course.
- *   - Return 0.
- */
 
 #include <stdio.h>
 
