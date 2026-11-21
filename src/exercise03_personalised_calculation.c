@@ -1,11 +1,12 @@
+
 /*
  * ICS 2175 - Introduction to Computer Programming
  * Laboratory 01 - Exercise 03: Personalised Calculation
  *
- * Student Name: TODO
- * Registration Number: TODO
- * Variant ID: TODO   (assigned by your lecturer, e.g. V07)
- * Scenario: TODO     (assigned by your lecturer)
+ * Student Name: MARIANA AKOTH JUMA
+ * Registration Number: ENB211-0044/2025
+ * Variant ID: TODO    V02
+ * Scenario: TODO     campus stationery desk calculates the total cost of an order.
  *
  * Instructions:
  *   - Record your assigned variant details above.
@@ -14,15 +15,33 @@
  *   - Store the result in a meaningfully named variable.
  *   - Print the result using the required output label.
  */
+    //Variable A number of note books =16
+    //variable B price per note book =125.5
+    //Required calculation - number of notebooks *price per notebook
+   // Arithmetic operation - 16*125.5=
+   // Required  output label -Order total
+
 
 #include <stdio.h>
 
 int main(void)
 {
-    /* TODO: Declare input variables with your assigned values */
-    /* TODO: Declare a result variable */
-    /* TODO: Perform the required arithmetic operation */
-    /* TODO: Print the result using the required output label */
+     int numberOfNOTEBooks=16;
+     float pricePerNoteBook=125.50F;
+     char category='A'
 
-    return 0;
-}
+     float Ordertotal=numberOfNOTEBooks*pricePerNoteBOOK;
+
+     printf("Number of books; 5d/n" ,numberOfNOTEBooks);
+     printf("Price per book; 5.2f/n",pricePerNoteBooks);
+     printf("Category: 5c/n", category);
+     printf("Total cost :%.2f/n" ,Ordertotal);
+     printf("Ordered %d notebooks in category %cat.2f each ,for an Ordertotal of %.2f.\n",
+            numberOfNOTEBooks ,category ,pricePerNoteBook ,Ordertotal);
+
+
+   return 0;
+{
+
+
+
