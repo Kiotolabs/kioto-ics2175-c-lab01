@@ -48,22 +48,31 @@ printf means print formatted output
 ; Marks end of instructions
 
 # 7. Variables and Data Types
-In Exercise 2, I declared and initialized four variables using different data types: "int", "float", "double" and "char". The "int" data type was used to store the number of books (15), while "float" stored the temperature (23.4). The "double" data type stored the distance (53.6745) with greater decimal precision, and "char" stored a single character grade ('A').
+In Exercise 2, I declared and initialized four variables using different data types: "int", "float", "double" and "char". The "int" data type was used to store the number of books (15), while "float" stored the temperature (23.4). The "double" data type stored the distance (43.6745) with greater decimal precision, and "char" stored a single character grade ('A').
 
 I used format specifiers in the "printf()" function to display the variable values. "%d" was used for the integer, "%f" for the floating-point and double values, and "%c" for the character. These format specifiers ensure that each value is displayed according to its data type.
-TODO: Explain the variables you declared in Exercise 2 and the format specifiers used.
+
 
 ## 8. Personalised Calculation
+Assigned scenario: A computer laboratory records the total number of available workstations in two rooms.
+Variant identification: The personalised scenario was identified using the registration-number-based assignment process. However, identifying the variant ID was challenging because no distinct variant ID was clearly displayed in the assignment instructions or generated task.
+Workstations in Room A = 84
+Workstations in Room B = 22
+Addition (+)
 
-TODO: Explain your assigned scenario, input values, operation and result. Include your variant ID.
+Total workstations = Workstations in Room A + Workstations in Room B
+Calculation:
+Total workstations = 84 + 22 = 106
+Verification: The program output was compared with the calculated result to confirm that the total of 106 workstations was correct.
 
 ## 9. Testing and Troubleshooting
 
-TODO: Describe how you compiled and tested your programs and any errors you fixed.
+Code::Blocks using the Build and Run option to check whether it worked correctly. The programs displayed the expected outputs in the console. During testing, I corrected a variable-name mismatch in Exercise 2, where I had used the wrong variable in a printf() statement. After correcting it, I compiled and ran the program again to confirm that it worked as expected.
 
 ## 10. GitHub Workflow
-
-TODO: Describe your fork, branch, commits and pull request (include screenshots/links).
+I forked the official Kiotolabs/kioto-ics2175-c-lab01 repository to my GitHub account, sharonmuchiri374-creator, to create my own copy of the lab repository. I then worked on a separate student branch to organise my changes without directly modifying the original repository.
+I made changes to the C programming exercises and committed my work to the repository. One of the recorded commit messages was "update exercise two variables". The commits help track the changes made during the practical.
+Pull Request: The assignment requires submitting a pull request to the original repository's main branch for review. The pull request link and status should be added once confirmed.
 
 ## 11. Screenshots
 
