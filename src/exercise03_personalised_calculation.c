@@ -1,28 +1,36 @@
+
 /*
  * ICS 2175 - Introduction to Computer Programming
  * Laboratory 01 - Exercise 03: Personalised Calculation
  *
- * Student Name: TODO
- * Registration Number: TODO
- * Variant ID: TODO   (assigned by your lecturer, e.g. V07)
- * Scenario: TODO     (assigned by your lecturer)
+ * Student Name: Clement Lesuuda
+ * Registration Number: ENB211-0013/2025
+ * Variant ID: Vxx
+ * Scenario: Study Hours Calculation
  *
- * Instructions:
- *   - Record your assigned variant details above.
- *   - Use the two input values given for your variant.
- *   - Perform the required arithmetic operation.
- *   - Store the result in a meaningfully named variable.
- *   - Print the result using the required output label.
+ * Variable A: Morning study hours = 4
+ * Variable B: Evening study hours = 3
+ * Required calculation: Morning + Evening
+ * Output label: Total study hours
  */
 
 #include <stdio.h>
 
 int main(void)
 {
-    /* TODO: Declare input variables with your assigned values */
-    /* TODO: Declare a result variable */
-    /* TODO: Perform the required arithmetic operation */
-    /* TODO: Print the result using the required output label */
+    // Declare and initialise input variables
+    int morningStudyHours = 4;
+    int eveningStudyHours = 3;
+
+    // Declare a result variable
+    int totalStudyHours;
+
+    // Perform the required arithmetic operation
+    totalStudyHours = morningStudyHours + eveningStudyHours;
+
+    // Print the result using the required output label
+    printf("Total study hours: %d\n", totalStudyHours);
 
     return 0;
 }
+

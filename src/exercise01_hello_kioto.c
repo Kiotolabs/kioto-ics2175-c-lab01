@@ -1,25 +1,22 @@
+
 /*
  * ICS 2175 - Introduction to Computer Programming
  * Laboratory 01 - Exercise 01: Hello Kioto
  *
- * Student Name: TODO
- * Registration Number: TODO
- *
- * Instructions:
- *   - Include stdio.h.
- *   - Implement main().
- *   - Print "Hello, Kioto!".
- *   - Print a second line introducing your programme or course.
- *   - Return 0.
+ * Student Name: Clement Lesuuda
+ * Registration Number: ENB211-0013/2025
  */
 
 #include <stdio.h>
 
 int main(void)
 {
-    /* TODO: Print "Hello, Kioto!" */
-    /* TODO: Print a second line introducing your programme or course */
-    /* TODO: Return 0 */
+    // Print the required greeting
+    printf("Hello, Kioto!\n");
 
+    // Introduce the programme
+    printf("I am Clement Lesuuda, a student of Agricultural and Biosystems Engineering.\n");
+
+    // Return 0 to indicate successful execution
     return 0;
 }
