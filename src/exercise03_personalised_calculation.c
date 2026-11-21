@@ -2,10 +2,10 @@
  * ICS 2175 - Introduction to Computer Programming
  * Laboratory 01 - Exercise 03: Personalised Calculation
  *
- * Student Name: TODO
- * Registration Number: TODO
- * Variant ID: TODO   (assigned by your lecturer, e.g. V07)
- * Scenario: TODO     (assigned by your lecturer)
+ * Student Name: VICTOR KOOME MUTWIRI
+ * Registration Number: ENB211-0042/2025
+ * Variant ID: V10
+ * Scenario: Printing costs
  *
  * Instructions:
  *   - Record your assigned variant details above.
@@ -19,10 +19,16 @@
 
 int main(void)
 {
-    /* TODO: Declare input variables with your assigned values */
-    /* TODO: Declare a result variable */
-    /* TODO: Perform the required arithmetic operation */
-    /* TODO: Print the result using the required output label */
+    int quantity = 120;
+    float unit_price = 2;
+
+    float print_cost;
+
+    print_cost = quantity * unit_price;
+
+    printf("The number of prints to be made are %d\n", quantity);
+    printf("The price per print will be Ksh %.2f\n", unit_price);
+    printf("Printing cost: %.0f\n", print_cost);
 
     return 0;
 }
