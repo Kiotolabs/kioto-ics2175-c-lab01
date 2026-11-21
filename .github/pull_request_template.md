@@ -32,9 +32,9 @@ TODO: List any issues or "none".
 
 ### Submission Checklist
 
-- [ ] I completed the work myself.
-- [ ] I tested all programs.
-- [ ] I have not committed executable files unnecessarily.
-- [ ] My report reflects my actual work.
+- [* ] I completed the work myself.
+- [* ] I tested all programs.
+- [* ] I have not committed executable files unnecessarily.
+- [ *] My report reflects my actual work.
 - [ ] I have included the required evidence.
-- [ ] I have not uploaded passwords or API keys.
+- [* ] I have not uploaded passwords or API keys.
