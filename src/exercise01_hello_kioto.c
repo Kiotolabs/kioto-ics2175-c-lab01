@@ -17,9 +17,17 @@
 
 int main(void)
 {
-    /* TODO: Print "Hello, Kioto!" */
-    /* TODO: Print a second line introducing your programme or course */
-    /* TODO: Return 0 */
+
+     Print "Hello, Kioto!" */
+     Print a second line introducing your programme or course */
+     Return 0 */
+
+
+     printf("Hallo, Emmah!\n");
+     printf("I am learning the C programming language.\n");
+     printf("Bsc Agricultural and Biosystems Engineering");
+     printf("I love my course");
+
 
     return 0;
 }
