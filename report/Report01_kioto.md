@@ -99,14 +99,14 @@ github.com/kiotolabs/kioto-ics2175-c-lab01/pulls
 github.co,/kiotolabs/kioto-ics2175-c-lab01/pull/39
 11. Screenshots
 
-03_calculation.png
-04_errors.png
-Screenshot (3).png
-Screenshot (4).png
-Screenshot (5).png
-Screenshot (7).png
-console_setup.png
-exercise03_calculation.png
+03calculation.png
+04errors.png
+Screenshot3.png
+Screenshot4.png
+Screenshot5.png
+Screenshot7.png
+consolesetup.png
+exercise03calculation.png
 
 ## 12. Individual Reflection
 • What I Learned: Through this lab, I learned how the C compilation pipeline works—specifically how an IDE like Code::Blocks uses the GCC compiler to translate human-readable .c source code into a Windows executable. I also learned how to declare typed variables (int, float, char), match them with format specifiers (%d, %.2f, %c), and submit code professionally using Git forks, branches, and pull requests.
