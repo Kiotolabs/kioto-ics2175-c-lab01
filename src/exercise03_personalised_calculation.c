@@ -2,27 +2,26 @@
  * ICS 2175 - Introduction to Computer Programming
  * Laboratory 01 - Exercise 03: Personalised Calculation
  *
- * Student Name: TODO
- * Registration Number: TODO
- * Variant ID: TODO   (assigned by your lecturer, e.g. V07)
- * Scenario: TODO     (assigned by your lecturer)
- *
- * Instructions:
- *   - Record your assigned variant details above.
- *   - Use the two input values given for your variant.
- *   - Perform the required arithmetic operation.
- *   - Store the result in a meaningfully named variable.
- *   - Print the result using the required output label.
+ * Student Name: Mercy Marindi
+ * Registration Number: ENB211-0057/2025
+ * Variant ID: V17
+ * Scenario: Distance travelled
  */
 
 #include <stdio.h>
 
 int main(void)
 {
-    /* TODO: Declare input variables with your assigned values */
-    /* TODO: Declare a result variable */
-    /* TODO: Perform the required arithmetic operation */
-    /* TODO: Print the result using the required output label */
+    double speedKilometresPerHour = 40.0;
+    double timeHours = 3.0;
+    double distance;
+
+    /* Multiplication calculates distance from speed and time. */
+    distance = speedKilometresPerHour * timeHours;
+
+    printf("Speed: %.2lf km/h\n", speedKilometresPerHour);
+    printf("Time: %.2lf hours\n", timeHours);
+    printf("Distance: %.2lf\n", distance);
 
     return 0;
 }
