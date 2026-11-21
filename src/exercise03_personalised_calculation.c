@@ -2,10 +2,10 @@
  * ICS 2175 - Introduction to Computer Programming
  * Laboratory 01 - Exercise 03: Personalised Calculation
  *
- * Student Name: TODO
- * Registration Number: TODO
- * Variant ID: TODO   (assigned by your lecturer, e.g. V07)
- * Scenario: TODO     (assigned by your lecturer)
+ * Student Name: OMONDI FAVOUR SHEKINAH
+ * Registration Number: ENB211-0119/2025
+ * Variant ID: V23
+ * Scenario: Computer lab workstations in two rooms
  *
  * Instructions:
  *   - Record your assigned variant details above.
@@ -19,10 +19,16 @@
 
 int main(void)
 {
-    /* TODO: Declare input variables with your assigned values */
-    /* TODO: Declare a result variable */
-    /* TODO: Perform the required arithmetic operation */
-    /* TODO: Print the result using the required output label */
+   int workstationsRoomA = 56;
+   int workstationsRoomB = 22;
+   int totalWorkstations;
+
+   totalWorkstations = workstationsRoomA + workstationsRoomB;
+
+   printf("Workstations in room A: %d\n", workstationsRoomA);
+   printf("Workstations in room B: %d\n" workstationsRoomB);
+   printf("Operation: room A + room B\n");
+   printf("Total workstations: %d\n",totalWorkstations);
 
     return 0;
 }
