@@ -95,6 +95,8 @@ Version control and submission were completed using GitHub and GitHub Desktop fo
 • Commits: Recorded my progress across meaningful, incremental commits (e.g., "Complete hello world exercise", "Implement variables and data types", and "Complete personalised calculation and report"). Each commit acts as a saved snapshot of the source code at a specific milestone.
 • Pull Request: Pushed the branch to my remote fork (origin) and opened Pull Request #[] ([https://github.com/kamanthekalekye-a11y/kioto-ics2175-c-lab01/pulls]) targeting Kiotolabs/kioto-ics2175-c-lab01 (main) for instructor review and automated GitHub Actions validation.
 
+github.com/kiotolabs/kioto-ics2175-c-lab01/pulls
+github.co,/kiotolabs/kioto-ics2175-c-lab01/pull/39
 11. Screenshots
 
 03_calculation.png
