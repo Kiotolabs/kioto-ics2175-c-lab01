@@ -5,11 +5,6 @@
  * Student Name: SHARON WANJIRU
  * Registration Number:ENB211-0016\2024
  *
- * Instructions:
- *   - Declare and initialise one int, one float, one double and one char.
- *   - Use meaningful variable names.
- *   - Display each value with the correct printf format specifier.
- */
 
 #include <stdio.h>
 
