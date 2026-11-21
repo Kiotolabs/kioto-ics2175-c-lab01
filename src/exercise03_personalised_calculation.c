@@ -4,7 +4,7 @@
  *
  * Student Name: OMONDI FAVOUR SHEKINAH
  * Registration Number: ENB211-0119/2025
- * Variant ID: Not shown
+ * Variant ID: V23
  * Scenario: Computer lab workstations in two rooms
  *
  * Instructions:
