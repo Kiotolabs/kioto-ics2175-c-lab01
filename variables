@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main()
+{
+    int morning_hours = 8;
+    int evening_hours = 3;
+    int total_hours = morning_hours + evening_hours;
+
+    printf("Total study hours: %d\n", total_hours);
+    return 0;
+}
