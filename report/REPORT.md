@@ -7,7 +7,7 @@
 - **Programme:** Agricultural and Biosystems Engineering
 - **GitHub Username:** akinyiochieng2006-bot
 - **Assigned Scenario:** Distance Travelled
-- **Variant ID:** ENB211-0121/2025
+- **Variant ID:** V18
 - **Date:** 18 November 2026
 
 ## 2. Objectives
@@ -86,7 +86,7 @@ Understanding these parts helped me learn how a basic C program is written and e
 In Exercise 2, I declared and initialized four variables using different C data types.
 
 | Variable | Data type | Value |
-|---|---|---|
+|---|---|---:|
 | numberOfBooks | int | 12 |
 | pricePerBook | float | 350.50 |
 | totalCost | double | 4206.00 |
@@ -111,11 +111,11 @@ The program produced the expected output.
 
 ## 8. Personalised Calculation
 
-My assigned scenario involved calculating the distance travelled by a learner.
+My assigned scenario involved calculating the distance travelled.
 
 The given values were:
 
-- Average speed = 192 km/h
+- Average speed = 55 km/h
 - Time = 1.5 hours
 
 The formula used was:
@@ -124,13 +124,13 @@ The formula used was:
 
 Substituting the values:
 
-Distance = 192 × 1.5
+Distance = 55 × 1.5
 
-Distance = **288 km**
+Distance = **82.5 km**
 
-I used variables to store the average speed and time. I then used the multiplication operator `*` to calculate the distance.
+I used variables to store the average speed and time. I then used the multiplication operator `*` to calculate the distance. I also used a character array (`char label[]`) to display the description of the calculated distance.
 
-The program displayed the final distance as 288 kilometres.
+The program displayed the final distance as 82.50 kilometres.
 
 **Screenshot:** `06-exercise3-output.png` – Output showing the calculated distance travelled.
 
@@ -158,14 +158,14 @@ The steps involved were:
 6. Pushing the feature branch to GitHub.
 7. Creating a Pull Request to the original repository.
 
-**GitHub details:**
+**GitHub Details:**
 
 - **GitHub Username:** akinyiochieng2006-bot
-- **Fork Repository:** https://github.com/akinyiochieng2006-bot/kioto-ics2175-c-lab01
+- **Fork Repository:** [https://github.com/akinyiochieng2006-bot/kioto-ics2175-c-lab01](https://github.com/akinyiochieng2006-bot/kioto-ics2175-c-lab01)
 - **Feature Branch:** `student/ENB211-0121/2025/lab01`
 - **Pull Request Number:** #13
 - **Pull Request Status:** Open
-- **Pull Request Link:** https://github.com/Kiotolabs/kioto-ics2175-c-lab01/pull/13
+- **Pull Request Link:** [https://github.com/Kiotolabs/kioto-ics2175-c-lab01/pull/13](https://github.com/Kiotolabs/kioto-ics2175-c-lab01/pull/13)
 - **Target Branch:** `main`
 
 The Pull Request was created to submit my laboratory work to the original repository. It had two commits at the time of taking the screenshot.
@@ -174,7 +174,9 @@ The Pull Request was created to submit my laboratory work to the original reposi
 
 - `07-github-fork.png` – My GitHub fork.
 - `08-feature-branch.png` – My feature branch.
-- `09-first-commit.png` ,09-second commit.png,09-third-comit.png– Evidence of at least three meaningful commits (to be added after the third commit).
+- `09-first-commit.png` – Evidence of the first meaningful commit.
+- `09-second-commit.png` – Evidence of the second meaningful commit.
+- `09-third-commit.png` – Evidence of the third meaningful commit (to be added after the third commit).
 - `10-pull-request.png` – My open Pull Request, number 13.
 
 ## 11. Screenshots
