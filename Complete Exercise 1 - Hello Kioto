@@ -1,0 +1,18 @@
+
+/*
+ * ICS 2175 - Introduction to Computer Programming
+ * Laboratory 01 - Exercise 01: Hello Kioto
+ *
+ * Student Name: Kepha Asino
+ * Registration Number: ENB211-0044/2024
+ */
+
+#include <stdio.h>
+
+int main(void)
+{
+    printf("Hello, Kioto!\n");
+    printf("I am a student of Agricultural and Biosystems Engineering.\n");
+
+    return 0;
+}
