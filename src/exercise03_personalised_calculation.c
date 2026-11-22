@@ -1,28 +1,30 @@
+
 /*
  * ICS 2175 - Introduction to Computer Programming
  * Laboratory 01 - Exercise 03: Personalised Calculation
  *
- * Student Name: TODO
- * Registration Number: TODO
- * Variant ID: TODO   (assigned by your lecturer, e.g. V07)
- * Scenario: TODO     (assigned by your lecturer)
+ * Student Name: Valentine Ndunge
+ * Registration Number: ENB211-0026/2024
+ * Variant ID: V13
+ * Scenario: Total computer workstations
  *
- * Instructions:
- *   - Record your assigned variant details above.
- *   - Use the two input values given for your variant.
- *   - Perform the required arithmetic operation.
- *   - Store the result in a meaningfully named variable.
- *   - Print the result using the required output label.
+ * Input value 1: 25
+ * Input value 2: 4
+ * Operation: Multiplication
+ * Required output label: Total workstations
  */
 
 #include <stdio.h>
 
 int main(void)
 {
-    /* TODO: Declare input variables with your assigned values */
-    /* TODO: Declare a result variable */
-    /* TODO: Perform the required arithmetic operation */
-    /* TODO: Print the result using the required output label */
+    int computerWorkstations = 25;
+    int numberOfLabs = 4;
+    int totalWorkstations;
+
+    totalWorkstations = computerWorkstations * numberOfLabs;
+
+    printf("Total workstations: %d\n", totalWorkstations);
 
     return 0;
 }
