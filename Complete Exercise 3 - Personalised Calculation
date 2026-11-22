@@ -17,7 +17,7 @@ int main(void)
     double time = 3.0;
     double distance;
 
-    /* Calculate distance by multiplying speed by time */
+    /* Calculate distance by multiplying speed by time. */
     distance = speed * time;
 
     printf("Distance: %.2f\n", distance);
