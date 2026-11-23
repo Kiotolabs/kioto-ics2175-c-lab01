@@ -1,28 +1,36 @@
+
 /*
  * ICS 2175 - Introduction to Computer Programming
  * Laboratory 01 - Exercise 03: Personalised Calculation
  *
- * Student Name: TODO
- * Registration Number: TODO
- * Variant ID: TODO   (assigned by your lecturer, e.g. V07)
- * Scenario: TODO     (assigned by your lecturer)
- *
- * Instructions:
- *   - Record your assigned variant details above.
- *   - Use the two input values given for your variant.
- *   - Perform the required arithmetic operation.
- *   - Store the result in a meaningfully named variable.
- *   - Print the result using the required output label.
+ * Student Name: CLINTON KIPCHIRCHIR
+ * Registration Number: ENB211-0111/2025
+ * Variant ID: V03
+ * Scenario: Stationery order cost
  */
 
 #include <stdio.h>
 
 int main(void)
 {
-    /* TODO: Declare input variables with your assigned values */
-    /* TODO: Declare a result variable */
-    /* TODO: Perform the required arithmetic operation */
-    /* TODO: Print the result using the required output label */
+    // Declare input variables
+    int pricePerItem = 40;
+    int quantity = 4;
+
+    // Declare a character variable
+    char category = 'A';
+
+    // Declare result variable
+    int totalCost;
+
+    // Perform multiplication
+    totalCost = pricePerItem * quantity;
+
+    // Display the results
+    printf("Price per item: %d\n", pricePerItem);
+    printf("Quantity: %d\n", quantity);
+    printf("Category: %c\n", category);
+    printf("Total cost: %d\n", totalCost);
 
     return 0;
 }
