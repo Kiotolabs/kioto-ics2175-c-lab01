@@ -3,23 +3,27 @@
  * ICS 2175 - Introduction to Computer Programming
  * Laboratory 01 - Exercise 03: Personalised Calculation
  *
- * Student Name: Valentine ndunge
+ * Student Name: Valentine Ndunge
  * Registration Number: ENB211-0026/2024
  * Variant ID: V13
- * Scenario: Workstations in Room A and Room B
+ * Scenario: Total computer workstations
+ *
+ * Input value 1: 25
+ * Input value 2: 4
+ * Operation: Multiplication
+ * Required output label: Total workstations
  */
 
 #include <stdio.h>
 
 int main(void)
 {
-    int workstationsRoomA = 56;
-    int workstationsRoomB = 22;
+    int computerWorkstations = 25;
+    int numberOfLabs = 4;
+    int totalWorkstations;
 
-    int totalWorkstations = workstationsRoomA + workstationsRoomB;
+    totalWorkstations = computerWorkstations * numberOfLabs;
 
-    printf("Workstations in Room A: %d\n", workstationsRoomA);
-    printf("Workstations in Room B: %d\n", workstationsRoomB);
     printf("Total workstations: %d\n", totalWorkstations);
 
     return 0;
